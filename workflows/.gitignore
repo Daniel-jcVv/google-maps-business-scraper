@@ -1,0 +1,22 @@
+# Ignore n8n workflow backups
+*.backup
+*.backup[0-9]
+*.backup[0-9][0-9]
+
+# Ignore temporary files
+*.tmp
+*.temp
+~*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep the main workflow file
+!gas_station_analyzer.json
