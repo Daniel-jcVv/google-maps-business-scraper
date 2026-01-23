@@ -1,6 +1,6 @@
 # 📍 PUNTO DE CONTINUACIÓN - Gas Station Analyzer
-**Fecha:** 2026-01-21 19:49
-**Sesión:** Agregando funcionalidad de Amenidades Cercanas
+**Fecha:** 2026-01-22 01:14
+**Sesión:** Configurando Error Handling y Email Notifications
 
 ---
 
@@ -19,19 +19,30 @@
   - `workflows/CHANGELOG.md`
   - `workflows/.gitignore`
 - ✅ Primer commit en Git
-- ✅ Sticky Notes agregados (Data Collection, Scraping, Transformation, Storage)
-- ✅ Error Handling configurado
+- ✅ Sticky Notes agregados (Data Collection, Scraping, Transformation, Storage, Error Handling)
 
 ### 3. Google Places API
 - ✅ API Key creada y agregada a `.env`
 - ✅ Variable: `GOOGLE_PLACES_API=AIzaSyA6vnhTxMXo4IOFi2kdWD9AWwCrOB9GUnE`
 - ✅ Límites confirmados: 5,000 búsquedas/mes GRATIS
 
+### 4. Nodos de Error Handling (CREADOS, FALTA CONFIGURAR)
+- ✅ Error Trigger (nodo creado)
+- ✅ Format Error Message (nodo creado)
+- ✅ Send Error Email (nodo creado, falta configurar)
+- ✅ Sticky Note - Error Handling (documentación)
+
+### 5. Nodos de Amenidades (YA CREADOS)
+- ✅ Process Each Station (Split In Batches)
+- ✅ Search Nearby Amenities (Google Places API)
+- ✅ Calculate Amenities Score (JavaScript)
+- ✅ Conectado a Save Business Data
+
 ---
 
 ## 🎯 LO QUE FALTA POR HACER
 
-### OBJETIVO ACTUAL: Agregar Nodos de Amenidades
+### OBJETIVO ACTUAL: Configurar Error Handling y Email
 
 Necesitamos crear **3 nodos nuevos** en n8n manualmente:
 

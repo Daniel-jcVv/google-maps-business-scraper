@@ -1,0 +1,8 @@
+# Python Dependencies
+# 
+# Currently no external dependencies required.
+# All scripts use Python standard library only (urllib, json, os, sys, socket).
+#
+# If future features require external packages, add them below:
+# python-dotenv>=1.0.0
+# requests>=2.31.0

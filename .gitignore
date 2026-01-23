@@ -1,0 +1,40 @@
+# .env files contain sensitive credentials
+.env
+!.env.example
+
+# n8n credentials cache
+.n8n/
+
+# Node modules (if any local scripts)
+node_modules/
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Backup files
+*.bak
+*.backup
+*.backup*
+
+# Test output
+coverage/
+test-results/
