@@ -104,7 +104,7 @@ Decision_Score = (
    - Toggle workflow to Active
    - It will run every 30 minutes automatically
 
-For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md)
+For detailed deployment instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
 
 ---
 
