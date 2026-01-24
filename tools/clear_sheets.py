@@ -7,9 +7,9 @@ Clears the problematic rows from Google Sheets Data tab
 import sys
 
 def main():
-    print("=" * 60)
+    print("=" * 70)
     print("MANUAL CLEANUP REQUIRED")
-    print("=" * 60)
+    print("=" * 70)
     print()
     print("The Google Sheets 'Data' tab contains incorrect data.")
     print()
@@ -27,7 +27,7 @@ def main():
     print()
     print("5. Check that new data appears correctly")
     print()
-    print("=" * 60)
+    print("=" * 70)
 
 if __name__ == '__main__':
     main()
