@@ -316,6 +316,4 @@ If you encounter any problems:
 
 ---
 
-**Ready! Your business scraper is running locally.**
 
-*Developed by Daniel-jcVv | Powered by n8n, Apify & Google Sheets*

@@ -42,6 +42,7 @@ test-results/
 
 # Session context (personal workflow tracking)
 .context/
+.agent/
 
 tools/__pycache__/
 
