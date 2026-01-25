@@ -1,5 +1,11 @@
 {
-  "name": "Google Maps business scraper with contact extraction via Apify and Firecrawl",
+  "updatedAt": "2026-01-24T21:16:10.688Z",
+  "createdAt": "2026-01-18T04:19:04.148Z",
+  "id": "f8h0TZ4lTu3YDzTX",
+  "name": "Gas Station Analyzer",
+  "description": null,
+  "active": false,
+  "isArchived": false,
   "nodes": [
     {
       "parameters": {
@@ -12,12 +18,12 @@
           ]
         }
       },
-      "id": "30d8d289-65a7-4a5d-9b80-63e2e3198531",
+      "id": "e5d6df9b-5b61-466b-951c-2bc33c1a24f6",
       "name": "Schedule Trigger",
       "type": "n8n-nodes-base.scheduleTrigger",
       "position": [
-        -2016,
-        368
+        -1984,
+        336
       ],
       "typeVersion": 1.1
     },
@@ -46,12 +52,12 @@
         "looseTypeValidation": true,
         "options": {}
       },
-      "id": "7cf744f7-9f6b-4275-9f08-c330acac3834",
+      "id": "4c0d7a64-3a80-4924-b014-595e9a82919b",
       "name": "Loop Until Complete",
       "type": "n8n-nodes-base.if",
       "position": [
-        -928,
-        368
+        -848,
+        336
       ],
       "typeVersion": 2.2
     },
@@ -73,21 +79,23 @@
         },
         "options": {}
       },
-      "id": "a7dce836-f6b3-455b-a64e-901fde40283c",
+      "id": "b50aca8c-962e-4cb4-8386-c709ec56fffc",
       "name": "Read Pending Queries",
       "type": "n8n-nodes-base.googleSheets",
       "position": [
-        -1808,
-        368
+        -1760,
+        336
       ],
       "typeVersion": 4.2,
       "alwaysOutputData": true,
+      "notesInFlow": true,
       "credentials": {
         "googleSheetsOAuth2Api": {
           "id": "WFqRRrt0CS9QJzXj",
           "name": "Google Sheets account"
         }
-      }
+      },
+      "notes": "Reads gas station search queries from Google Sheets.\nFilters only rows where Status = FALSE (pending).\nReturns: Query, Location fields for Apify."
     },
     {
       "parameters": {
@@ -110,32 +118,34 @@
         },
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n  \"searchStringsArray\": [\n    \"{{ $json.Query }}\"\n  ],\n  \"locationQuery\": \"{{ $json.Location }}\",\n  \"maxCrawledPlacesPerSearch\": 15,\n  \"language\": \"en\",\n  \"maximumLeadsEnrichmentRecords\": 0,\n  \"maxImages\": 0\n}",
+        "jsonBody": "={\n \"searchStringsArray\": [\n \"{{ $json.Query }}\"\n ],\n \"locationQuery\": \"{{ $json.Location }}\",\n \"maxCrawledPlacesPerSearch\": 15,\n \"language\": \"en\",\n \"maximumLeadsEnrichmentRecords\": 0,\n \"maxImages\": 0\n}",
         "options": {}
       },
-      "id": "e80b2b4b-ae7a-4634-8127-5a84774bbf52",
+      "id": "2634eb12-ff72-4a57-9238-2ff75fce5aa0",
       "name": "Start Apify Scraping Job",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        -1584,
-        368
+        -1504,
+        336
       ],
       "typeVersion": 4.2,
+      "notesInFlow": true,
       "credentials": {
         "httpBearerAuth": {
           "id": "OAAUZfFfnrhClGqs",
           "name": "Bearer Auth apyfy"
         }
-      }
+      },
+      "notes": "Triggers Apify Google Maps scraper.\nAPI: compass~crawler-google-places\nReturns: Run ID for status tracking.\nMax results: 15 places per search."
     },
     {
       "parameters": {},
-      "id": "bd3ba7ab-5dd7-4d1a-886e-e376f96792e7",
+      "id": "a1f35a2f-a6d3-4471-b14a-3122a65adecd",
       "name": "Wait for Job Succeed",
       "type": "n8n-nodes-base.wait",
       "position": [
-        -1360,
-        368
+        -1280,
+        336
       ],
       "webhookId": "97a65079-8ee5-45a2-9de0-afd263bbbe34",
       "typeVersion": 1.1
@@ -162,12 +172,12 @@
           "timeout": 10000
         }
       },
-      "id": "d140649d-fa96-42bb-8c1e-4e7182f869a2",
+      "id": "718691eb-2bfc-432e-a4db-d8188b11993b",
       "name": "Check Scraping Status",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        -1136,
-        304
+        -1056,
+        272
       ],
       "typeVersion": 4.2,
       "credentials": {
@@ -199,12 +209,12 @@
           "timeout": 10000
         }
       },
-      "id": "46a4715b-041b-4633-8a3b-2e0f18ba955a",
+      "id": "85c344ed-4fa3-4637-a276-1faf6a66fc48",
       "name": "Fetch Scraped Results",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        -704,
-        368
+        -624,
+        336
       ],
       "typeVersion": 4.2,
       "credentials": {
@@ -234,21 +244,15 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "Station_ID": "={{ $json.Station_ID }}",
-            "Station_Name": "={{ $json.Station_Name }}",
             "address": "={{ $json.Address }}",
             "Latitude": "={{ $json.Latitude }}",
             "Longitude": "={{ $json.Longitude }}",
-            "Rating_Average": "={{ $json.Rating_Average }}",
             "Total_Reviews": "={{ $json.Total_Reviews }}",
             "Open_24_Hours": "={{ $json.Open_24_Hours }}",
             "Google_Maps_URL": "={{ $json.Google_Maps_URL }}",
-            "Decision_Score": "={{ $json.Decision_Score }}",
-            "Nearby_OXXO": "={{ $json.Nearby_OXXO }}",
-            "Nearby_Coffee": "={{ $json.Nearby_Coffee }}",
-            "Nearby_Mechanic": "={{ $json.Nearby_Mechanic }}",
-            "Nearby_ATM": "={{ $json.Nearby_ATM }}",
-            "Amenities_Score": "={{ $json.Amenities_Score }}"
+            "Station_ID": "={{ $json.Station_ID }}",
+            "Station_Name": "={{  $json.Station_Name }} }",
+            "Decision_Score": "={{ $json.Decision_Score }}"
           },
           "matchingColumns": [],
           "schema": [
@@ -259,7 +263,8 @@
               "defaultMatch": false,
               "display": true,
               "type": "string",
-              "canBeUsedToMatch": true
+              "canBeUsedToMatch": true,
+              "removed": true
             },
             {
               "id": "Station_ID",
@@ -318,7 +323,7 @@
               "display": true,
               "type": "string",
               "canBeUsedToMatch": true,
-              "removed": false
+              "removed": true
             },
             {
               "id": "Total_Reviews",
@@ -359,6 +364,16 @@
               "type": "string",
               "canBeUsedToMatch": true,
               "removed": false
+            },
+            {
+              "id": "Address",
+              "displayName": "Address",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": true
             }
           ],
           "attemptToConvertTypes": false,
@@ -366,20 +381,22 @@
         },
         "options": {}
       },
-      "id": "4a460fc5-9e01-4629-884e-e60789275d3c",
+      "id": "00d2856c-6a3e-4e10-8c5e-45d6e1d5b8a3",
       "name": "Save Business Data",
       "type": "n8n-nodes-base.googleSheets",
       "position": [
-        -480,
-        368
+        -112,
+        336
       ],
       "typeVersion": 4.6,
+      "notesInFlow": true,
       "credentials": {
         "googleSheetsOAuth2Api": {
           "id": "WFqRRrt0CS9QJzXj",
           "name": "Google Sheets account"
         }
-      }
+      },
+      "notes": "Appends processed data to Google Sheets \"Data\" tab.\nIncludes: Station info, ratings, Decision Score.\nUses OAuth2 for authentication."
     },
     {
       "parameters": {
@@ -416,12 +433,12 @@
         },
         "options": {}
       },
-      "id": "a7c67292-3733-4b8b-bf32-a51c45cedee2",
+      "id": "36e54063-b136-4c78-9276-32e5aa5e3bf6",
       "name": "Filter Businesses with Websites",
       "type": "n8n-nodes-base.filter",
       "position": [
-        -256,
-        368
+        352,
+        416
       ],
       "typeVersion": 2.2
     },
@@ -429,12 +446,12 @@
       "parameters": {
         "options": {}
       },
-      "id": "d3ed6c18-fc26-41dd-bd81-2bc6699d982e",
+      "id": "bb7577f6-8784-4c94-b56c-1a8c0767fb86",
       "name": "Batch Processing Logic",
       "type": "n8n-nodes-base.splitInBatches",
       "position": [
-        -48,
-        368
+        560,
+        416
       ],
       "typeVersion": 3
     },
@@ -446,28 +463,28 @@
         "genericAuthType": "httpBearerAuth",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n  \"url\": \"{{ $json.website }}\",\n  \"formats\": [\n    \"html\"\n  ]\n}",
+        "jsonBody": "={\n \"url\": \"{{ $json.website }}\",\n \"formats\": [\n \"html\"\n ]\n}",
         "options": {}
       },
-      "id": "7adbcec7-1d5e-4cbf-933b-d4b826f3f305",
+      "id": "8dfe8087-b8cb-48be-ab43-a279e5c5fd63",
       "name": "Scrape Website Content",
       "type": "n8n-nodes-base.httpRequest",
       "position": [
-        240,
-        272
+        848,
+        320
       ],
       "typeVersion": 4.2
     },
     {
       "parameters": {
-        "jsCode": "// N8N Code Node - Extract emails, LinkedIn, Facebook, Instagram for single item\nconst item = $input.first();\n\n// Get the text content to search (adjust field names as needed)\nconst textContent = item.json.data.html;\n\n// Initialize result object\nconst result = {\n  website: $('Batch Processing Logic').first().json.website,\n  emails: \"None\",\n  linkedin: \"None\", \n  facebook: \"None\",\n  instagram: \"None\",\n  twitter: \"None\"\n};\n\n// Email extraction regex - matches common email patterns\nconst emailRegex = /\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b/gi;\nconst emails = textContent.match(emailRegex);\n\nif (emails && emails.length > 0) {\n  // Remove duplicates and filter out common non-email matches\n  const uniqueEmails = [...new Set(emails)].filter(email => {\n    const lowerEmail = email.toLowerCase();\n    return !lowerEmail.includes('example.com') && \n           !lowerEmail.includes('test@') &&\n           !lowerEmail.includes('noreply@') &&\n           !lowerEmail.includes('no-reply@') &&\n           lowerEmail.length > 5;\n  });\n  \n  if (uniqueEmails.length > 0) {\n    result.emails = uniqueEmails.length === 1 ? uniqueEmails[0] : uniqueEmails.join(', ');\n  }\n}\n\n// LinkedIn extraction - improved pattern\nconst linkedinRegex = /(?:https?:\\/\\/)?(?:www\\.)?linkedin\\.com\\/(?:in\\/|company\\/|pub\\/)[a-zA-Z0-9\\-._]+\\/?/gi;\nconst linkedinMatches = textContent.match(linkedinRegex);\nif (linkedinMatches && linkedinMatches.length > 0) {\n  const cleanLinkedin = linkedinMatches[0].replace(/^(?:https?:\\/\\/)?(?:www\\.)?/i, 'https://www.');\n  result.linkedin = cleanLinkedin;\n}\n\n// Facebook extraction - improved to match numeric IDs and usernames\nconst facebookRegex = /(?:https?:\\/\\/)?(?:www\\.|m\\.|mobile\\.)?facebook\\.com\\/(?:[^\\/\\s]+\\/)*[^\\/\\s?#]+/gi;\nconst facebookMatches = textContent.match(facebookRegex);\nif (facebookMatches && facebookMatches.length > 0) {\n  const cleanFacebook = facebookMatches[0].replace(/^(?:https?:\\/\\/)?(?:www\\.)?/i, 'https://www.');\n  result.facebook = cleanFacebook;\n}\n\n// Instagram extraction - improved to match various URL formats\nconst instagramRegex = /(?:https?:\\/\\/)?(?:www\\.)?instagram\\.com\\/[a-zA-Z0-9\\-._]+\\/?/gi;\nconst instagramMatches = textContent.match(instagramRegex);\nif (instagramMatches && instagramMatches.length > 0) {\n  const cleanInstagram = instagramMatches[0].replace(/^(?:https?:\\/\\/)?(?:www\\.)?/i, 'https://www.');\n  result.instagram = cleanInstagram;\n}\n\n// Twitter/X extraction - improved to match usernames properly\nconst twitterRegex = /(?:https?:\\/\\/)?(?:www\\.)?(?:twitter\\.com|x\\.com)\\/[a-zA-Z0-9_]+\\/?/gi;\nconst twitterMatches = textContent.match(twitterRegex);\nif (twitterMatches && twitterMatches.length > 0) {\n  const cleanTwitter = twitterMatches[0].replace(/^(?:https?:\\/\\/)?(?:www\\.)?/i, 'https://www.');\n  result.twitter = cleanTwitter;\n}\n\n// Alternative extraction for social handles without full URLs\n// Look for @username patterns for Instagram and Twitter\nif (result.instagram === \"None\") {\n  const igHandleRegex = /@([a-zA-Z0-9._]{1,30})/gi;\n  const igHandles = textContent.match(igHandleRegex);\n  if (igHandles && igHandles.length > 0) {\n    const username = igHandles[0].replace('@', '');\n    if (username.length > 0 && !username.includes(' ')) {\n      result.instagram = `https://www.instagram.com/${username}`;\n    }\n  }\n}\n\n// Look for Twitter handles without full URLs\nif (result.twitter === \"None\") {\n  const twitterHandleRegex = /@([a-zA-Z0-9_]{1,15})/gi;\n  const twitterHandles = textContent.match(twitterHandleRegex);\n  if (twitterHandles && twitterHandles.length > 0) {\n    const username = twitterHandles[0].replace('@', '');\n    if (username.length > 0 && !username.includes(' ')) {\n      result.twitter = `https://www.x.com/${username}`;\n    }\n  }\n}\n\n// Clean up URLs - remove trailing slashes and parameters\n['linkedin', 'facebook', 'instagram', 'twitter'].forEach(platform => {\n  if (result[platform] !== \"None\") {\n    result[platform] = result[platform].split('?')[0].split('#')[0].replace(/\\/$/, '');\n  }\n});\n\nreturn result;"
+        "jsCode": "// N8N Code Node - Extract emails, LinkedIn, Facebook, Instagram for single item\nconst item = $input.first();\n\n// Get the text content to search (adjust field names as needed)\nconst textContent = item.json.data.html;\n\n// Initialize result object\nconst result = {\n website: $('Batch Processing Logic').first().json.website,\n emails: \"None\",\n linkedin: \"None\", \n facebook: \"None\",\n instagram: \"None\",\n twitter: \"None\"\n};\n\n// Email extraction regex - matches common email patterns\nconst emailRegex = /\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}\\b/gi;\nconst emails = textContent.match(emailRegex);\n\nif (emails && emails.length > 0) {\n // Remove duplicates and filter out common non-email matches\n const uniqueEmails = [...new Set(emails)].filter(email => {\n const lowerEmail = email.toLowerCase();\n return !lowerEmail.includes('example.com') && \n !lowerEmail.includes('test@') &&\n !lowerEmail.includes('noreply@') &&\n !lowerEmail.includes('no-reply@') &&\n lowerEmail.length > 5;\n });\n \n if (uniqueEmails.length > 0) {\n result.emails = uniqueEmails.length === 1 ? uniqueEmails[0] : uniqueEmails.join(', ');\n }\n}\n\n// LinkedIn extraction - improved pattern\nconst linkedinRegex = /(?:https?:\\/\\/)?(?:www\\.)?linkedin\\.com\\/(?:in\\/|company\\/|pub\\/)[a-zA-Z0-9\\-._]+\\/?/gi;\nconst linkedinMatches = textContent.match(linkedinRegex);\nif (linkedinMatches && linkedinMatches.length > 0) {\n const cleanLinkedin = linkedinMatches[0].replace(/^(?:https?:\\/\\/)?(?:www\\.)?/i, 'https://www.');\n result.linkedin = cleanLinkedin;\n}\n\n// Facebook extraction - improved to match numeric IDs and usernames\nconst facebookRegex = /(?:https?:\\/\\/)?(?:www\\.|m\\.|mobile\\.)?facebook\\.com\\/(?:[^\\/\\s]+\\/)*[^\\/\\s?#]+/gi;\nconst facebookMatches = textContent.match(facebookRegex);\nif (facebookMatches && facebookMatches.length > 0) {\n const cleanFacebook = facebookMatches[0].replace(/^(?:https?:\\/\\/)?(?:www\\.)?/i, 'https://www.');\n result.facebook = cleanFacebook;\n}\n\n// Instagram extraction - improved to match various URL formats\nconst instagramRegex = /(?:https?:\\/\\/)?(?:www\\.)?instagram\\.com\\/[a-zA-Z0-9\\-._]+\\/?/gi;\nconst instagramMatches = textContent.match(instagramRegex);\nif (instagramMatches && instagramMatches.length > 0) {\n const cleanInstagram = instagramMatches[0].replace(/^(?:https?:\\/\\/)?(?:www\\.)?/i, 'https://www.');\n result.instagram = cleanInstagram;\n}\n\n// Twitter/X extraction - improved to match usernames properly\nconst twitterRegex = /(?:https?:\\/\\/)?(?:www\\.)?(?:twitter\\.com|x\\.com)\\/[a-zA-Z0-9_]+\\/?/gi;\nconst twitterMatches = textContent.match(twitterRegex);\nif (twitterMatches && twitterMatches.length > 0) {\n const cleanTwitter = twitterMatches[0].replace(/^(?:https?:\\/\\/)?(?:www\\.)?/i, 'https://www.');\n result.twitter = cleanTwitter;\n}\n\n// Alternative extraction for social handles without full URLs\n// Look for @username patterns for Instagram and Twitter\nif (result.instagram === \"None\") {\n const igHandleRegex = /@([a-zA-Z0-9._]{1,30})/gi;\n const igHandles = textContent.match(igHandleRegex);\n if (igHandles && igHandles.length > 0) {\n const username = igHandles[0].replace('@', '');\n if (username.length > 0 && !username.includes(' ')) {\n result.instagram = `https://www.instagram.com/${username}`;\n }\n }\n}\n\n// Look for Twitter handles without full URLs\nif (result.twitter === \"None\") {\n const twitterHandleRegex = /@([a-zA-Z0-9_]{1,15})/gi;\n const twitterHandles = textContent.match(twitterHandleRegex);\n if (twitterHandles && twitterHandles.length > 0) {\n const username = twitterHandles[0].replace('@', '');\n if (username.length > 0 && !username.includes(' ')) {\n result.twitter = `https://www.x.com/${username}`;\n }\n }\n}\n\n// Clean up URLs - remove trailing slashes and parameters\n['linkedin', 'facebook', 'instagram', 'twitter'].forEach(platform => {\n if (result[platform] !== \"None\") {\n result[platform] = result[platform].split('?')[0].split('#')[0].replace(/\\/$/, '');\n }\n});\n\nreturn result;"
       },
-      "id": "7307c4ae-a9b2-496e-a99e-237c2905b799",
+      "id": "1e3674ae-ea7c-4545-9a49-6a151500b36a",
       "name": "Extract Contact Information",
       "type": "n8n-nodes-base.code",
       "position": [
-        464,
-        272
+        1072,
+        320
       ],
       "typeVersion": 2
     },
@@ -560,12 +577,12 @@
         },
         "options": {}
       },
-      "id": "275ad0ba-ef1e-4f55-b0f5-9638df042d08",
+      "id": "85769f83-dc4e-40ec-9710-0ac8da7c3ede",
       "name": "Save Contact Details",
       "type": "n8n-nodes-base.googleSheets",
       "position": [
-        688,
-        272
+        1296,
+        320
       ],
       "typeVersion": 4.6,
       "credentials": {
@@ -692,12 +709,12 @@
         },
         "options": {}
       },
-      "id": "fb25d2a1-67c9-4cdc-ba48-fbdbd2cc2487",
+      "id": "4531ec1f-db85-474c-9603-3d4592de136a",
       "name": "Mark as Processed",
       "type": "n8n-nodes-base.googleSheets",
       "position": [
-        912,
-        336
+        1520,
+        384
       ],
       "typeVersion": 4.6,
       "credentials": {
@@ -709,69 +726,129 @@
     },
     {
       "parameters": {
-        "content": "## 🚀 INITIALIZATION PHASE\n- Triggers every 30 minutes\n- Reads unprocessed records from [Google Sheet](https://docs.google.com/spreadsheets/d/1DHezdcetT0c3Ie1xB3z3jDc5WElsLN87K4J9EQDef9g/edit?usp=sharing)\n- Starts Google Places scraper for restaurants\n- Waits for completion",
-        "height": 180,
-        "width": 640,
-        "color": 4
-      },
-      "id": "873d8f36-dbbc-4135-be39-173c5d08041b",
-      "name": "Sticky Note",
-      "type": "n8n-nodes-base.stickyNote",
-      "position": [
-        -2000,
-        144
-      ],
-      "typeVersion": 1
-    },
-    {
-      "parameters": {
-        "content": "## 📊 DATA COLLECTION PHASE\n- Monitors scraper job status\n- Loops until job completes\n- Fetches scraped restaurant data\n- Saves to \"Data\" sheet in [Google Sheets](https://docs.google.com/spreadsheets/d/1DHezdcetT0c3Ie1xB3z3jDc5WElsLN87K4J9EQDef9g/edit?usp=sharing)",
-        "height": 180,
-        "width": 660
-      },
-      "id": "ac457305-587f-43b9-9a79-ef5704816f89",
-      "name": "Sticky Note1",
-      "type": "n8n-nodes-base.stickyNote",
-      "position": [
-        -1072,
-        48
-      ],
-      "typeVersion": 1
-    },
-    {
-      "parameters": {
-        "content": "## 🌐 WEBSITE PROCESSING PHASE\n- Filters restaurants with valid websites\n- Loops through each website\n- Scrapes website content with Firecrawl\n- Extracts contact information (emails, social media)\n- Saves to \"Details\" sheet and marks as processed",
-        "height": 200,
-        "width": 740,
-        "color": 6
-      },
-      "id": "ced48c65-b570-41e4-8bc3-8505bd265f9c",
-      "name": "Sticky Note2",
-      "type": "n8n-nodes-base.stickyNote",
-      "position": [
-        -80,
-        32
-      ],
-      "typeVersion": 1
-    },
-    {
-      "parameters": {
         "content": "## 🔄 LOOPS\n**Status Check Loop**: Continues until scraper job is complete\n**Website Processing Loop**: Processes each restaurant website individually",
         "height": 120,
         "width": 580
       },
-      "id": "f132f306-a7bd-4013-8d8a-f1661538f4fa",
+      "id": "d56fc086-1748-492f-9b37-6a0a85348f3f",
       "name": "Sticky Note3",
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        240,
-        576
+        848,
+        624
       ],
       "typeVersion": 1
     },
     {
       "parameters": {
-        "jsCode": "const items = $input.all();\n\nreturn items.map(item => ({\n  json: {\n    Station_ID: item.json.placeId || '',\n    Station_Name: item.json.title || '',\n    Address: item.json.address || 'N/A',  // ✅ SIN comillas extras\n    Latitude: item.json.location?.lat || 0,\n    Longitude: item.json.location?.lng || 0,\n    Rating_Average: item.json.totalScore || 0,\n    Total_Reviews: item.json.reviewsCount || 0,\n    Open_24_Hours: (item.json.openingHours || []).every(d => d.hours?.includes('24 hours')),\n    Google_Maps_URL: item.json.url || '',\n    Decision_Score: Math.round((\n      (item.json.totalScore/5)*40 + \n      Math.min(Math.log((item.json.reviewsCount||0)+1)*10, 30) +\n      ((item.json.openingHours||[]).every(d=>d.hours?.includes('24'))?30:0)\n    )*10)/10\n  }\n}));"
+        "jsCode": "/**\n * Transform Apify data and calculate Decision Score\n * Uses same formula as src/scorer.py (tested with 100% coverage)\n */\n\nfunction calculateDecisionScore(rating, totalReviews, open24Hours) {\n  // Input validation (same as Python version)\n  if (rating < 0 || rating > 5) {\n    throw new Error(`Rating ${rating} must be between 0 and 5`);\n  }\n  if (totalReviews < 0) {\n    throw new Error(`Reviews ${totalReviews} cannot be negative`);\n  }\n  \n  // Score components (matching Python formula exactly)\n  const ratingScore = (rating / 5) * 40;\n  const reviewsScore = Math.min(Math.log10(totalReviews + 1) * 10, 30);\n  const availabilityScore = open24Hours ? 30 : 0;\n  \n  // Return rounded integer\n  return Math.round(ratingScore + reviewsScore + availabilityScore);\n}\n\n// Process all items from Apify\nconst items = $input.all();\n\nreturn items.map(item => ({\n  json: {\n    Station_ID: item.json.placeId || '',\n    Station_Name: item.json.title || '',\n    Address: item.json.address || 'N/A',\n    Latitude: item.json.location?.lat || 0,\n    Longitude: item.json.location?.lng || 0,\n    Rating_Average: item.json.totalScore || 0,\n    Total_Reviews: item.json.reviewsCount || 0,\n    Open_24_Hours: (item.json.openingHours || []).every(d => d.hours?.includes('24 hours')),\n    Google_Maps_URL: item.json.url || '',\n    Decision_Score: calculateDecisionScore(\n      item.json.totalScore || 0,\n      item.json.reviewsCount || 0,\n      (item.json.openingHours || []).every(d => d.hours?.includes('24 hours'))\n    )\n  }\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -400,
+        336
+      ],
+      "id": "38aa5225-f934-4750-bcfc-f20cb6e63c12",
+      "name": "Code in JavaScript",
+      "notesInFlow": true,
+      "notes": "Transforms raw Apify data to structured format.\nCalculates base Decision Score (0-100):\n- Rating: 40%\n- Reviews: 30%  \n- 24hrs: 30%\nOutput: Station data ready for enrichment."
+    },
+    {
+      "parameters": {
+        "content": "## 📥 DATA COLLECTION PHASE\n\nReads pending queries from Google Sheets and triggers Apify scraper",
+        "height": 112,
+        "width": 400,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -2000,
+        208
+      ],
+      "id": "4bfddf26-5f55-4f71-a63a-e990d1c61f4a",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "content": "## 🔄 SCRAPING & VALIDATION PHASE\nApify scrapes Google Maps and waits for job completion",
+        "height": 96,
+        "width": 848,
+        "color": 3
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -1520,
+        192
+      ],
+      "id": "865fb75a-b9c1-46fd-bc76-2125b35340b5",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## ⚙️ TRANSFORMATION PHASE\nProcesses raw data and calculates base Decision Score",
+        "height": 112,
+        "width": 384,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -640,
+        208
+      ],
+      "id": "cd3f2f39-5007-4d4a-bb23-dbc1ca209589",
+      "name": "Sticky Note5"
+    },
+    {
+      "parameters": {
+        "content": "## 💾 STORAGE PHASE\nSaves enriched data to Google Sheets",
+        "height": 128,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -192,
+        192
+      ],
+      "id": "c1c79cb0-a270-46c5-b5bb-5162c1c58439",
+      "name": "Sticky Note6"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        -896,
+        576
+      ],
+      "id": "49a6d7a9-a6a2-4599-83e9-5458e9bdee40",
+      "name": "Error Trigger"
+    },
+    {
+      "parameters": {
+        "fromEmail": "noreply@gasstationanalyzer.com",
+        "toEmail": "daniel.sh.be@gmail.com",
+        "subject": "=={{ $json.subject }}",
+        "html": "=={{ $json.body }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        -368,
+        560
+      ],
+      "id": "d92a45fc-7e6b-4519-83c7-a5e0c0273856",
+      "name": "Send email",
+      "webhookId": "8d777e8c-cdfb-4a42-a84f-71c5cf9e8d40"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format error message for email notification\nconst data = $input.first().json;\nconst workflowName = data.workflow?.name || \"Gas Station Analyzer\";\n\n// Extract error details from the execution object\nconst execution = data.execution || {};\nconst error = execution.error || {};\n\nconst errorMessage = error.message || 'Unknown error';\nconst errorNode = execution.lastNodeExecuted || 'Unknown node';\nconst errorStack = error.stack || 'No stack trace available';\nconst executionUrl = execution.url || 'http://localhost:5678';\nconst errorTime = new Date().toLocaleString('es-MX', { \n  timeZone: 'America/Mexico_City',\n  dateStyle: 'full',\n  timeStyle: 'long'\n});\n\n// Build formatted message\nconst emailSubject = `🚨 Error en ${workflowName}`;\nconst emailBody = `\n<h2 style=\"color: #d32f2f;\">⚠️ Error Detectado en Workflow</h2>\n\n<div style=\"background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin: 20px 0;\">\n  <p><strong>📋 Workflow:</strong> ${workflowName}</p>\n  <p><strong>🔴 Nodo con Error:</strong> ${errorNode}</p>\n  <p><strong>⏰ Fecha y Hora:</strong> ${errorTime}</p>\n</div>\n\n<div style=\"background-color: #ffebee; padding: 15px; border-radius: 5px; border-left: 4px solid #d32f2f;\">\n  <h3 style=\"color: #d32f2f; margin-top: 0;\">Mensaje de Error:</h3>\n  <pre style=\"white-space: pre-wrap; word-wrap: break-word;\">${errorMessage}</pre>\n</div>\n\n<div style=\"background-color: #fff3e0; padding: 15px; border-radius: 5px; margin-top: 20px;\">\n  <h3 style=\"color: #e65100; margin-top: 0;\">📜 Stack Trace:</h3>\n  <pre style=\"white-space: pre-wrap; word-wrap: break-word; font-size: 11px; max-height: 200px; overflow-y: auto;\">${errorStack}</pre>\n</div>\n\n<div style=\"margin-top: 20px; padding: 15px; background-color: #e3f2fd; border-radius: 5px;\">\n  <h3 style=\"color: #1976d2; margin-top: 0;\">🔧 Acciones Recomendadas:</h3>\n  <ul>\n    <li>Revisa el nodo <strong>${errorNode}</strong> en n8n</li>\n    <li>Verifica las credenciales de APIs (Apify, Google Sheets, Google Places)</li>\n    <li>Confirma que los datos de entrada sean válidos</li>\n    <li>Revisa los logs completos en: <a href=\"${executionUrl}\">Ver ejecución</a></li>\n  </ul>\n</div>\n\n<hr style=\"margin: 30px 0; border: none; border-top: 1px solid #ccc;\">\n\n<p style=\"color: #666; font-size: 12px;\">\n  Este es un mensaje automático del sistema de monitoreo de workflows n8n.<br>\n  Para más información, contacta al administrador del sistema.\n</p>\n`;\n\nreturn [{\n  json: {\n    subject: emailSubject,\n    body: emailBody,\n    errorNode: errorNode,\n    errorMessage: errorMessage,\n    timestamp: errorTime,\n    executionUrl: executionUrl\n  }\n}];"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -779,139 +856,31 @@
         -624,
         608
       ],
-      "id": "5984fd04-f309-4a10-b887-8f73ac48aad5",
-      "name": "Code in JavaScript"
+      "id": "00bf8d0c-9a15-45ae-b1ab-7de8e1390345",
+      "name": "Format Error Message"
     },
     {
       "parameters": {
-        "batchSize": 1,
-        "options": {
-          "reset": true
-        }
-      },
-      "id": "split-batches-amenities",
-      "name": "Process Each Station",
-      "type": "n8n-nodes-base.splitInBatches",
-      "typeVersion": 3,
-      "position": [
-        -400,
-        608
-      ]
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://places.googleapis.com/v1/places:searchNearby",
-        "authentication": "genericCredentialType",
-        "genericAuthType": "httpHeaderAuth",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "X-Goog-Api-Key",
-              "value": "={{ $env.GOOGLE_PLACES_API }}"
-            },
-            {
-              "name": "X-Goog-FieldMask",
-              "value": "places.displayName,places.types"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
-        },
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={\n  \"locationRestriction\": {\n    \"circle\": {\n      \"center\": {\n        \"latitude\": {{ $json.Latitude }},\n        \"longitude\": {{ $json.Longitude }}\n      },\n      \"radius\": 300\n    }\n  },\n  \"includedTypes\": [\"convenience_store\", \"cafe\", \"atm\", \"car_repair\"],\n  \"maxResultCount\": 10\n}",
-        "options": {}
-      },
-      "id": "http-places-api",
-      "name": "Search Nearby Amenities",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        -200,
-        608
-      ]
-    },
-    {
-      "parameters": {
-        "jsCode": "const station = $('Process Each Station').first().json;\nconst response = $input.first().json;\n\n// Extract amenities from Google Places API response\nconst places = response.places || [];\n\nlet nearbyOxxo = false;\nlet nearbyCoffee = false;\nlet nearbyMechanic = false;\nlet nearbyATM = false;\n\n// Analyze found places\nfor (const place of places) {\n  const types = place.types || [];\n  \n  if (types.includes('convenience_store')) nearbyOxxo = true;\n  if (types.includes('cafe')) nearbyCoffee = true;\n  if (types.includes('car_repair')) nearbyMechanic = true;\n  if (types.includes('atm')) nearbyATM = true;\n}\n\n// Calculate amenities score\nlet amenitiesScore = 0;\nif (nearbyOxxo) amenitiesScore += 5;\nif (nearbyCoffee) amenitiesScore += 5;\nif (nearbyMechanic) amenitiesScore += 5;\nif (nearbyATM) amenitiesScore += 5;\n\n// Recalculate Decision Score with amenities\nconst rating = station.Rating_Average || 0;\nconst reviews = station.Total_Reviews || 0;\nconst is24hrs = station.Open_24_Hours || false;\n\nconst ratingScore = (rating / 5) * 40;\nconst reviewScore = Math.min(Math.log(reviews + 1) * 10, 30);\nconst availabilityScore = is24hrs ? 10 : 0;\n\nconst decisionScore = Math.round((\n  ratingScore + \n  reviewScore + \n  availabilityScore + \n  amenitiesScore\n) * 10) / 10;\n\nreturn [{\n  json: {\n    ...station,\n    Nearby_OXXO: nearbyOxxo,\n    Nearby_Coffee: nearbyCoffee,\n    Nearby_Mechanic: nearbyMechanic,\n    Nearby_ATM: nearbyATM,\n    Amenities_Score: amenitiesScore,\n    Decision_Score: decisionScore\n  }\n}];"
-      },
-      "id": "code-calculate-amenities",
-      "name": "Calculate Amenities Score",
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [
-        0,
-        608
-      ]
-    },
-    {
-      "parameters": {},
-      "id": "error-trigger-node",
-      "name": "Error Trigger",
-      "type": "n8n-nodes-base.errorTrigger",
-      "typeVersion": 1,
-      "position": [
-        1200,
-        600
-      ]
-    },
-    {
-      "parameters": {
-        "jsCode": "// Format error message for email notification\nconst error = $input.first().json;\nconst workflowName = \"Gas Station Analyzer\";\n\n// Extract error details\nconst errorMessage = error.message || 'Unknown error';\nconst errorNode = error.node?.name || 'Unknown node';\nconst errorTime = new Date().toLocaleString('es-MX', { \n  timeZone: 'America/Mexico_City',\n  dateStyle: 'full',\n  timeStyle: 'long'\n});\n\n// Build formatted message\nconst emailSubject = `🚨 Error en ${workflowName}`;\nconst emailBody = `\n<h2 style=\"color: #d32f2f;\">⚠️ Error Detectado en Workflow</h2>\n\n<div style=\"background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin: 20px 0;\">\n  <p><strong>📋 Workflow:</strong> ${workflowName}</p>\n  <p><strong>🔴 Nodo con Error:</strong> ${errorNode}</p>\n  <p><strong>⏰ Fecha y Hora:</strong> ${errorTime}</p>\n</div>\n\n<div style=\"background-color: #ffebee; padding: 15px; border-radius: 5px; border-left: 4px solid #d32f2f;\">\n  <h3 style=\"color: #d32f2f; margin-top: 0;\">Mensaje de Error:</h3>\n  <pre style=\"white-space: pre-wrap; word-wrap: break-word;\">${errorMessage}</pre>\n</div>\n\n<div style=\"margin-top: 20px; padding: 15px; background-color: #e3f2fd; border-radius: 5px;\">\n  <h3 style=\"color: #1976d2; margin-top: 0;\">🔧 Acciones Recomendadas:</h3>\n  <ul>\n    <li>Revisa el nodo <strong>${errorNode}</strong> en n8n</li>\n    <li>Verifica las credenciales de APIs (Apify, Google Sheets, Google Places)</li>\n    <li>Confirma que los datos de entrada sean válidos</li>\n    <li>Revisa los logs completos en n8n: <a href=\"http://localhost:5678\">http://localhost:5678</a></li>\n  </ul>\n</div>\n\n<hr style=\"margin: 30px 0; border: none; border-top: 1px solid #ccc;\">\n\n<p style=\"color: #666; font-size: 12px;\">\n  Este es un mensaje automático del sistema de monitoreo de workflows n8n.<br>\n  Para más información, contacta al administrador del sistema.\n</p>\n`;\n\nreturn [{\n  json: {\n    subject: emailSubject,\n    body: emailBody,\n    errorNode: errorNode,\n    errorMessage: errorMessage,\n    timestamp: errorTime\n  }\n}];"
-      },
-      "id": "format-error-message",
-      "name": "Format Error Message",
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [
-        1424,
-        600
-      ]
-    },
-    {
-      "parameters": {
-        "fromEmail": "noreply@gasstationanalyzer.com",
-        "toEmail": "admin@example.com",
+        "sendTo": "daniel.sh.be@gmail.com",
         "subject": "={{ $json.subject }}",
-        "emailType": "html",
         "message": "={{ $json.body }}",
         "options": {}
       },
-      "id": "send-error-email",
-      "name": "Send Error Email",
-      "type": "n8n-nodes-base.emailSend",
-      "typeVersion": 2.1,
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
       "position": [
-        1648,
-        600
+        -96,
+        544
       ],
+      "id": "4083e9a1-9b5f-4ed8-87f4-b64470296646",
+      "name": "Send a message",
+      "webhookId": "88d1b9da-0b71-49cb-b3c7-c396e5dbf01f",
       "credentials": {
-        "smtp": {
-          "id": "SMTP_CREDENTIAL_ID",
-          "name": "SMTP account"
+        "gmailOAuth2": {
+          "id": "VXYEUdPYuGLV0LxN",
+          "name": "Gmail account 2"
         }
-      },
-      "notes": "⚠️ CONFIGURAR: Actualiza 'toEmail' con tu email y configura credenciales SMTP en n8n"
-    },
-    {
-      "parameters": {
-        "content": "## 🚨 ERROR HANDLING\n- Captura errores de cualquier nodo del workflow\n- Formatea mensaje con detalles del error\n- Envía notificación por email al administrador\n- **⚠️ IMPORTANTE:** Configura credenciales SMTP y email de destino",
-        "height": 180,
-        "width": 580,
-        "color": 7
-      },
-      "id": "error-handling-sticky",
-      "name": "Sticky Note - Error Handling",
-      "type": "n8n-nodes-base.stickyNote",
-      "typeVersion": 1,
-      "position": [
-        1200,
-        400
-      ]
+      }
     }
   ],
   "connections": {
@@ -939,13 +908,7 @@
     },
     "Save Business Data": {
       "main": [
-        [
-          {
-            "node": "Filter Businesses with Websites",
-            "type": "main",
-            "index": 0
-          }
-        ]
+        []
       ]
     },
     "Loop Until Complete": {
@@ -1081,39 +1044,6 @@
       "main": [
         [
           {
-            "node": "Process Each Station",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Process Each Station": {
-      "main": [
-        [
-          {
-            "node": "Search Nearby Amenities",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Search Nearby Amenities": {
-      "main": [
-        [
-          {
-            "node": "Calculate Amenities Score",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Calculate Amenities Score": {
-      "main": [
-        [
-          {
             "node": "Save Business Data",
             "type": "main",
             "index": 0
@@ -1136,7 +1066,7 @@
       "main": [
         [
           {
-            "node": "Send Error Email",
+            "node": "Send email",
             "type": "main",
             "index": 0
           }
@@ -1144,23 +1074,333 @@
       ]
     }
   },
-  "active": false,
   "settings": {
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "2642ac10-8d7f-4c72-bf97-52d90215f89c",
-  "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "0ae97440595d07fccd8ba2172a13e78ddfdbbe1a5070ad30aebc789c28d2aba5"
+  "staticData": null,
+  "meta": null,
+  "pinData": {
+    "Save Business Data": [
+      {
+        "json": {
+          "address": "Av Cerro Sombrerete, Balcones de San Pablo, 76125 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.6340158,
+          "Longitude": -100.4136125,
+          "Total_Reviews": 636,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=BP&query_place_id=ChIJWwiemvVa04URkt9GZ1tnbEc",
+          "Station_ID": "ChIJWwiemvVa04URkt9GZ1tnbEc",
+          "Station_Name": "BP }",
+          "Decision_Score": 92.8
+        },
+        "pairedItem": {
+          "item": 0
+        }
+      },
+      {
+        "json": {
+          "address": "Epigmenio González, 5 de Febrero, 76150 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.6057179,
+          "Longitude": -100.4091062,
+          "Total_Reviews": 109,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=Shell&query_place_id=ChIJu1jjKMda04URBe9cMjJhYH4",
+          "Station_ID": "ChIJu1jjKMda04URBe9cMjJhYH4",
+          "Station_Name": "Shell }",
+          "Decision_Score": 89.6
+        },
+        "pairedItem": {
+          "item": 1
+        }
+      },
+      {
+        "json": {
+          "address": "Mexican Federal Hwy 57 57, Autop. México - Querétaro Km-200+700, 76149 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.5689793,
+          "Longitude": -100.3046121,
+          "Total_Reviews": 370,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=ARCO&query_place_id=ChIJx2MgBMdD04URCGOLxjhuuKY",
+          "Station_ID": "ChIJx2MgBMdD04URCGOLxjhuuKY",
+          "Station_Name": "ARCO }",
+          "Decision_Score": 93.6
+        },
+        "pairedItem": {
+          "item": 2
+        }
+      },
+      {
+        "json": {
+          "address": "Cam. de Pemex SN-S GASOLINERIA, 76902 San José de los Olvera, Qro., Mexico",
+          "Latitude": 20.558091,
+          "Longitude": -100.412196,
+          "Total_Reviews": 429,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=OXXO%20GAS&query_place_id=ChIJIeHx-RNF04UR1D9Oxr8nkUA",
+          "Station_ID": "ChIJIeHx-RNF04UR1D9Oxr8nkUA",
+          "Station_Name": "OXXO GAS }",
+          "Decision_Score": 92.8
+        },
+        "pairedItem": {
+          "item": 3
+        }
+      },
+      {
+        "json": {
+          "address": "km 45, Prados de La Capilla, 76176 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.576887,
+          "Longitude": -100.413321,
+          "Total_Reviews": 305,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=Oxxo%20Gasolinera&query_place_id=ChIJr1ToNHNF04URb6hhmZXn2eY",
+          "Station_ID": "ChIJr1ToNHNF04URb6hhmZXn2eY",
+          "Station_Name": "Oxxo Gasolinera }",
+          "Decision_Score": 92.8
+        },
+        "pairedItem": {
+          "item": 4
+        }
+      },
+      {
+        "json": {
+          "address": "Lat. México-Querétaro, zona dos extendida, Balaustradas, 76079 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.5769076,
+          "Longitude": -100.3842692,
+          "Total_Reviews": 359,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=bp&query_place_id=ChIJ0WMkUrBE04URXVwKX75w-ts",
+          "Station_ID": "ChIJ0WMkUrBE04URXVwKX75w-ts",
+          "Station_Name": "bp }",
+          "Decision_Score": 91.2
+        },
+        "pairedItem": {
+          "item": 5
+        }
+      },
+      {
+        "json": {
+          "address": "Querétaro 100 El Colorado Higuerillas Intersección Estatal, No, A, Calamand, 76249 Qro., Mexico",
+          "Latitude": 20.580043,
+          "Longitude": -100.1998424,
+          "Total_Reviews": 63,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=Shell&query_place_id=ChIJo3DlWW1p04URsjyB12qg-dI",
+          "Station_ID": "ChIJo3DlWW1p04URsjyB12qg-dI",
+          "Station_Name": "Shell }",
+          "Decision_Score": 90.4
+        },
+        "pairedItem": {
+          "item": 6
+        }
+      },
+      {
+        "json": {
+          "address": "Blvrd Peña Flor, 76229 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.6419398,
+          "Longitude": -100.4913479,
+          "Total_Reviews": 613,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=bp&query_place_id=ChIJj69JSxtR04URarYqDu6MTPA",
+          "Station_ID": "ChIJj69JSxtR04URarYqDu6MTPA",
+          "Station_Name": "bp }",
+          "Decision_Score": 92
+        },
+        "pairedItem": {
+          "item": 7
+        }
+      },
+      {
+        "json": {
+          "address": "México 45D, 76246 Qro., Mexico",
+          "Latitude": 20.569975,
+          "Longitude": -100.29586,
+          "Total_Reviews": 1220,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=Estaci%C3%B3n%20Noria%20Flash&query_place_id=ChIJAyHQkOdC04UR6edvSLA1GJs",
+          "Station_ID": "ChIJAyHQkOdC04UR6edvSLA1GJs",
+          "Station_Name": "Estación Noria Flash }",
+          "Decision_Score": 92.8
+        },
+        "pairedItem": {
+          "item": 8
+        }
+      },
+      {
+        "json": {
+          "address": "Epigmenio González, San Pablo Tecnologico, 76150 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.6131514,
+          "Longitude": -100.3974958,
+          "Total_Reviews": 249,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=Chevron&query_place_id=ChIJgYANpu5b04URb9LJyU440Tg",
+          "Station_ID": "ChIJgYANpu5b04URb9LJyU440Tg",
+          "Station_Name": "Chevron }",
+          "Decision_Score": 92.8
+        },
+        "pairedItem": {
+          "item": 9
+        }
+      },
+      {
+        "json": {
+          "address": "Carretera a 210-Km 0.450, Carretera Estatal, 76246 La Griega, Qro., Mexico",
+          "Latitude": 20.5774976,
+          "Longitude": -100.2556938,
+          "Total_Reviews": 211,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=bp&query_place_id=ChIJSW2lMBZp04UR9KKh7xg4MuA",
+          "Station_ID": "ChIJSW2lMBZp04UR9KKh7xg4MuA",
+          "Station_Name": "bp }",
+          "Decision_Score": 92
+        },
+        "pairedItem": {
+          "item": 10
+        }
+      },
+      {
+        "json": {
+          "address": "Av. Pie de la Cuesta 2301, Lomas de San Pedrito, 76148 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.650485,
+          "Longitude": -100.404306,
+          "Total_Reviews": 177,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=Gas%20Station%20Pemex&query_place_id=ChIJ2cCOC09a04URhqUYTm7m_kk",
+          "Station_ID": "ChIJ2cCOC09a04URhqUYTm7m_kk",
+          "Station_Name": "Gas Station Pemex }",
+          "Decision_Score": 92
+        },
+        "pairedItem": {
+          "item": 11
+        }
+      },
+      {
+        "json": {
+          "address": "CampanarioNo, Av. Campanario 42, El Campanario, 76146 Santiago de Querétaro, Qro., Mexico",
+          "Latitude": 20.6090194,
+          "Longitude": -100.3745438,
+          "Total_Reviews": 151,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=Gasolinera%20Shell%20Campanario&query_place_id=ChIJ3_qMQz9b04URXGXoPPK_8UA",
+          "Station_ID": "ChIJ3_qMQz9b04URXGXoPPK_8UA",
+          "Station_Name": "Gasolinera Shell Campanario }",
+          "Decision_Score": 90.4
+        },
+        "pairedItem": {
+          "item": 12
+        }
+      },
+      {
+        "json": {
+          "address": "P.º de la República Km. 30, 76223 Santa Rosa Jáuregui, Qro., Mexico",
+          "Latitude": 20.8319794,
+          "Longitude": -100.4410615,
+          "Total_Reviews": 749,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=Gasomax%20El%20Parque&query_place_id=ChIJfQ0iksSp1IURcbXNgv7JMiI",
+          "Station_ID": "ChIJfQ0iksSp1IURcbXNgv7JMiI",
+          "Station_Name": "Gasomax El Parque }",
+          "Decision_Score": 94.4
+        },
+        "pairedItem": {
+          "item": 13
+        }
+      },
+      {
+        "json": {
+          "address": "Jurica - San Juan del Rio, 76246 San Isidro Miranda, Qro., Mexico",
+          "Latitude": 20.5700937,
+          "Longitude": -100.3138917,
+          "Total_Reviews": 955,
+          "Open_24_Hours": true,
+          "Google_Maps_URL": "https://www.google.com/maps/search/?api=1&query=G500&query_place_id=ChIJAT9BnSJD04UR5HCdvAM3FJM",
+          "Station_ID": "ChIJAT9BnSJD04UR5HCdvAM3FJM",
+          "Station_Name": "G500 }",
+          "Decision_Score": 92.8
+        },
+        "pairedItem": {
+          "item": 14
+        }
+      }
+    ]
   },
-  "id": "f8h0TZ4lTu3YDzTX",
+  "versionId": "0666a288-e50b-4fc6-9f81-a73d3da20f39",
+  "activeVersionId": null,
+  "versionCounter": 17,
+  "triggerCount": 0,
+  "shared": [
+    {
+      "updatedAt": "2026-01-18T04:19:04.154Z",
+      "createdAt": "2026-01-18T04:19:04.154Z",
+      "role": "workflow:owner",
+      "workflowId": "f8h0TZ4lTu3YDzTX",
+      "projectId": "tX7wW8Vi6pQcAuGR",
+      "project": {
+        "updatedAt": "2025-12-28T01:40:51.021Z",
+        "createdAt": "2025-12-28T01:37:33.850Z",
+        "id": "tX7wW8Vi6pQcAuGR",
+        "name": "daniel be <daniel.sh.be@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "creatorId": "5d003261-12cd-4dcc-9dff-5e9663b75fa3",
+        "projectRelations": [
+          {
+            "updatedAt": "2025-12-28T01:37:33.850Z",
+            "createdAt": "2025-12-28T01:37:33.850Z",
+            "userId": "5d003261-12cd-4dcc-9dff-5e9663b75fa3",
+            "projectId": "tX7wW8Vi6pQcAuGR",
+            "user": {
+              "updatedAt": "2026-01-24T03:48:53.000Z",
+              "createdAt": "2025-12-28T01:37:33.609Z",
+              "id": "5d003261-12cd-4dcc-9dff-5e9663b75fa3",
+              "email": "daniel.sh.be@gmail.com",
+              "firstName": "daniel",
+              "lastName": "be",
+              "personalizationAnswers": {
+                "version": "v4",
+                "personalization_survey_submitted_at": "2025-12-28T01:41:45.059Z",
+                "personalization_survey_n8n_version": "2.1.4",
+                "automationGoalDevops": [
+                  "monitoring-alerting",
+                  "data-syncing",
+                  "ci-cd",
+                  "cloud-infrastructure-orchestration",
+                  "incident-response",
+                  "reporting",
+                  "ticketing-systems-integrations"
+                ],
+                "companyType": "systems-integrator",
+                "role": "it"
+              },
+              "settings": {
+                "userActivated": true,
+                "easyAIWorkflowOnboarded": true,
+                "firstSuccessfulWorkflowId": "YZD5VoxKWwSpQYZn",
+                "userActivatedAt": 1767988163431,
+                "npsSurvey": {
+                  "waitingForResponse": true,
+                  "ignoredCount": 1,
+                  "lastShownAt": 1768801117837
+                }
+              },
+              "disabled": false,
+              "mfaEnabled": false,
+              "lastActiveAt": "2026-01-24",
+              "isPending": false
+            }
+          }
+        ]
+      }
+    }
+  ],
   "tags": [
     {
-      "name": "scraping",
-      "id": "bX3v99LLiYQmbU19",
       "updatedAt": "2026-01-18T04:19:11.243Z",
-      "createdAt": "2026-01-18T04:19:11.243Z"
+      "createdAt": "2026-01-18T04:19:11.243Z",
+      "id": "bX3v99LLiYQmbU19",
+      "name": "scraping"
     }
-  ]
+  ],
+  "activeVersion": null
 }

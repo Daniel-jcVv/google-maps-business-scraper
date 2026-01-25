@@ -8,5 +8,5 @@ pytest>=7.4.0              # Testing framework
 pytest-cov>=4.1.0          # Coverage reporting
 
 # Future Production Dependencies (if needed):
-# python-dotenv>=1.0.0     # For better .env file handling
-# requests>=2.31.0         # For HTTP requests (alternative to urllib)
+python-dotenv>=1.0.0     # For better .env file handling
+requests>=2.31.0         # For HTTP requests (alternative to urllib)
