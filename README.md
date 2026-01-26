@@ -14,8 +14,8 @@
 
 - **Situation**: Manual research of business locations and market analysis is time-consuming and error-prone. Sales teams and market researchers spend hours gathering basic business intelligence that could be automated.
 - **Task**: To architect an automated system capable of scraping Google Maps for business data, scoring businesses using intelligent algorithms, and organizing everything in a structured, actionable format.
-- **Action**: I orchestrated an n8n workflow that integrates Apify for Google Maps scraping and Google Sheets for data storage. The system includes an intelligent Decision Score algorithm that ranks businesses by quality, popularity, and availability.
-- **Result**: Developed a production-ready framework that processes 15+ businesses per query automatically, extracting 10 data points per business and calculating priority scores, reducing research time from hours to minutes.
+- **Action**: I designed an automated workflow that integrates Apify for Google Maps scraping and Google Sheets for data storage. The system includes an intelligent Decision Score algorithm.
+- **Result**: A production-ready framework that processes 15+ businesses per query automatically, reducing research time from hours to minutes.
 
 ---
 
@@ -59,16 +59,33 @@ The system calculates a weighted score (0-100) for each business:
 Decision_Score = (
   (Rating_Average / 5) * 40 +
   min(log(Total_Reviews + 1) * 10, 30) +
-  (Open_24_Hours ? 30 : 0)
+  (Open_24_Hours ? 10 : 0) +
+  min(Amenities_Count * 5, 20)
 ) * 10 / 10
 ```
 
 **Weights:**
 - Rating Quality: 40%
 - Review Volume: 30%
-- 24/7 Availability: 30%
+- 24/7 Availability: 10%
+- Nearby Amenities: 20%
 
 ---
+
+## Deployment Architecture
+
+I utilize a **custom Docker container** that combines Python 3.11 and n8n. This approach ensures a consistent environment where all scripts run natively without external dependencies.
+
+```mermaid
+graph LR
+    subgraph "Docker Container (Port 5678)"
+        direction TB
+        A[Base: Python 3.11 Alpine] --> B[Install: n8n Global]
+        B --> E[Runtime: n8n Service]
+        F[Volume: maps_scraper code] -.-> E
+    end
+    E -->|Executes| F
+```
 
 ## Quick Start
 
@@ -121,7 +138,7 @@ For detailed deployment instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.m
 | Rating_Average | Google Maps rating (1-5) |
 | Total_Reviews | Number of reviews |
 | Open_24_Hours | 24/7 availability status |
-| Google_Maps_URL | Direct link to Maps |
+| Amenities_Count | Nearby amenities count |
 | Decision_Score | Calculated score (0-100) |
 
 ---
@@ -138,6 +155,11 @@ For detailed deployment instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.m
 
 ```
 maps_scraper/
+├── src/                  # Core Python logic
+│   └── scorer.py         # Decision Score algorithm
+├── tests/                # Unit tests
+│   ├── __init__.py
+│   └── test_scorer.py
 ├── scripts/              # Python diagnostic tools
 │   ├── diagnostic.py     # System health checker
 │   ├── fix_oauth.py      # OAuth2 reconnection tool
@@ -147,6 +169,8 @@ maps_scraper/
 ├── workflows/            # n8n workflow exports
 │   └── gas_station_analyzer.json
 ├── .env.example          # Environment template
+├── Dockerfile            # Container definition
+├── docker-compose.yml    # Container orchestration
 ├── requirements.txt      # Python dependencies
 └── README.md             # This file
 ```
