@@ -68,6 +68,17 @@ Google Sheets (Query) > n8n (30 min) > Apify (scrape Maps) > Python (parse+score
 - apify_sample.json y apify_full_details.json eliminados — ya procesados
 - Solo quedan: XLSX principal + fiverr_sample.xlsx
 
+### Sesion 2026-03-27 (segunda parte)
+
+- Claude Code settings configurados: `.claude/settings.json` con hooks y ignorePatterns
+- Carpetas obsoletas eliminadas: `.context/`, `.agent/`
+- Brainstorming Fiverr: gig "scrape any website", 3 paquetes (Basic $10 / Standard $25 / Premium $50)
+- Estrategia screenshots: 3 datasets (refacciones MercadoLibre + gasolineras Maps + vista general)
+- MercadoLibre validado: BeautifulSoup funciona, gratis, 48+ productos por búsqueda
+- Comparación por región NO funciona (ML es marketplace nacional) → comparación por MARCA sí
+- Decisión: crear proyecto separado `mercadolibre_scraper/` (herramientas diferentes a maps_scraper)
+- Apify: $4.78 crédito restante este mes
+
 ### Produccion
 - Necesita: Apify API key + Google Sheets OAuth + Sheet ID
 - Datos scrapeados 2026-03-27 con details via startUrls (por placeId)
@@ -92,10 +103,15 @@ Score = (rating/5 * 50) + min(log10(reviews+1) * 10, 30) + (24h ? 20 : 0)
 
 - [x] Poblar hoja Details (amenities via Apify startUrls) — DONE sesion 2026-03-27
 - [x] Sincronizar CSV con XLSX — DONE (CSVs eliminados, XLSX es fuente unica)
-- [ ] Formatear XLSX para Fiverr (brainstorming iniciado, objetivo: screenshots profesionales)
-- [ ] Migrar a uv (actualmente pip + venv)
-- [ ] Screenshots alta resolucion para Fiverr (3 tomas)
-- [ ] Commit de cambios sesion 2026-03-27 (archivos nuevos + modificados)
+- [x] Commit sesion 2026-03-27 — DONE
+- [x] Claude Code settings: hooks (.env protection, auto-test) + ignorePatterns — DONE sesion 2026-03-27
+- [x] Cleanup carpetas obsoletas (.context/, .agent/) — DONE sesion 2026-03-27
+- [ ] Estudio de mercado: qué scraping se vende más en Fiverr (próxima sesión)
+- [ ] Crear proyecto `mercadolibre_scraper/` — scraper de refacciones por marca (BeautifulSoup, gratis)
+- [ ] Formatear XLSX para Fiverr — 3 screenshots: refacciones ML + gasolineras Maps + vista general
+- [ ] Screenshots alta resolución para Fiverr (3 tomas)
+- [ ] Publicar gig Fiverr: "scrape any website and deliver clean data"
+- [ ] Migrar a uv (baja prioridad)
 
 ---
 
