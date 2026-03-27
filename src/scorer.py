@@ -1,61 +1,27 @@
-
 import math
+from .models import GasStation
 
-def calculate_decision_score(
-    rating: float, 
-    total_reviews: int, 
-    open_24_hours: bool,
-    amenities_count: int = 0
-) -> int:
+# Scoring Constraints
+# Scoring Constraints - Rebalanced for Fleet Efficiency
+MAX_RATING_SCORE = 50       # Quality is king (50%)
+MAX_REVIEWS_SCORE = 30      # Popularity/Reliability (30%)
+MAX_AVAILABILITY_SCORE = 20 # 24/7 Access (20%)
+
+def calculate_decision_score(station: GasStation) -> int:
     """
-    calculate the decision score for a gas station based on quality, popularity,
-    availability, and amenities.
-    
-    This is the CORE business logic of the project. The formula is:
-    Score = (Rating/5)*40 + min(log(reviews+1)*10, 30) + (24hrs ? 10 : 0) + min(amenities*5, 20)
-    
-    Weights (Top 100 points):
-    - Rating (40%): Quality is most important
-    - Reviews (30%): Popularity (logarithmic)
-    - 24hrs (10%): Convenience
-    - Amenities (20%): Extra services (OXXO, Coffee, etc.)
-
-    Args:
-        rating: Google Maps average rating (0.0-5.0)
-        total_reviews: Number of reviews (must be >= 0)
-        open_24_hours: True if station operates 24/7
-        amenities_count: Number of nearby amenities (OXXO, Coffee, etc.)
-        
-    Returns:
-        Integer score between 0-100
-        
-    Raises:
-        ValueError: If inputs are invalid (negative numbers, rating > 5)
+    Calculate the decision score (0-100).
+    Optimized for fleets: Quality + Reliability + Access.
     """
-    # validation fail with clear error messages (best practice)
-    if not 0 <= rating <= 5:
-        raise ValueError(f"Rating {rating} must be between 0 and 5")
+    # 1. Rating Score (50%)
+    rating_score = (station.rating / 5) * MAX_RATING_SCORE
+
+    # 2. Reviews Score (30%)
+    reviews_score = min(math.log10(station.total_reviews + 1) * 10, MAX_REVIEWS_SCORE)
+
+    # 3. Availability Score (20%)
+    availability_score = MAX_AVAILABILITY_SCORE if station.Has_24_Hours else 0
     
-    if total_reviews < 0:
-        raise ValueError(f"Reviews {total_reviews} cannot be negative")
-        
-    if amenities_count < 0:
-        raise ValueError(f"Amenities {amenities_count} cannot be negative")
+    # 4. Amenities Score (Deprecated in v1.0 MVP)
+    # amenities_score = min(station.amenities_count * 5, MAX_AMENITIES_SCORE)
 
-    # Component 1: rating score (40 points max)
-    rating_score = (rating/5)*40
-
-    # Component 2: reviews score (30 points max, logarithmic)
-    reviews_score = min(math.log10(total_reviews + 1) * 10, 30)
-
-    # Component 3: availability score (10 points max)
-    # Reduced from 30 to 10 to make room for amenities
-    availability_score = 10 if open_24_hours else 0
-    
-    # Component 4: amenities score (20 points max)
-    # 5 points per amenity, capped at 20 (4 amenities)
-    amenities_score = min(amenities_count * 5, 20)
-
-    # total sum all components and round to integer
-    total_score = rating_score + reviews_score + availability_score + amenities_score
-    return round(total_score)
+    return round(rating_score + reviews_score + availability_score)

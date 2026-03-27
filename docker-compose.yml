@@ -32,7 +32,7 @@ services:
       # Security override to allow using $env in nodes
       - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
       # API Keys injected from .env
-      - GOOGLE_PLACES_API_KEY=${GOOGLE_API_KEY}
+      - GOOGLE_PLACES_API_KEY=${GOOGLE_PLACES_API_KEY}
       - APIFY_API_KEY=${APIFY_API_KEY}
     links:
       - db

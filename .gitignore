@@ -43,6 +43,7 @@ test-results/
 # Session context (personal workflow tracking)
 .context/
 .agent/
+.persistence/
 
 tools/__pycache__/
 
@@ -53,3 +54,6 @@ htmlcov/
 # Pytest cache
 src/__pycache__/
 tests/__pycache__/
+
+# LireOffice lock files
+.~lock.*
