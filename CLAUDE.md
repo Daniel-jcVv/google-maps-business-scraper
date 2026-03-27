@@ -17,6 +17,9 @@ maps_scraper/
 │   └── processor.py        # Batch: score + rank + savings + recomendacion
 ├── scripts/
 │   ├── format_sheet.py     # Formatea XLSX para screenshots
+│   ├── populate_details.py # Apify JSON → Details sheet en XLSX
+│   ├── scrape_all_details.py # Scrape amenities por placeId via Apify
+│   ├── test_apify_details.py # Test scrape de 3 estaciones
 │   ├── deploy_workflow.py  # Deploy JSON a n8n API
 │   ├── sync_workflow.py    # Download workflow de n8n
 │   ├── verify_scoring.py   # Test scorer con samples
@@ -55,17 +58,19 @@ Google Sheets (Query) > n8n (30 min) > Apify (scrape Maps) > Python (parse+score
 
 ### XLSX (Google Maps Scraper - local.xlsx)
 - **Query**: 1 fila (gas stations, Queretaro Mexico)
-- **Data**: 563 filas, 10 columnas con datos reales
-- **Details**: Solo headers, sin datos (amenities no implementado)
+- **Data**: 75 filas, 10 columnas (33 IDs unicos, hay duplicados)
+- **Details**: 33 filas con amenities POBLADAS (sesion 2026-03-27)
+  - 24h: 25 (76%), Store: 11 (33%), CarWash: 3 (9%), OXXO: 3 (9%)
+  - ATM: 0, Coffee: 0 (Google Maps no reporta estos para gasolineras MX)
 
-### CSVs
-- Data.csv = 75 filas (subconjunto viejo del XLSX)
-- Details.csv = solo headers
-- Query.csv = 1 fila
+### Sheets cleanup (sesion 2026-03-27)
+- CSVs eliminados (Data, Details, Query) — eran subconjuntos viejos
+- apify_sample.json y apify_full_details.json eliminados — ya procesados
+- Solo quedan: XLSX principal + fiverr_sample.xlsx
 
 ### Produccion
 - Necesita: Apify API key + Google Sheets OAuth + Sheet ID
-- Datos tienen ~2 meses (enero 2026)
+- Datos scrapeados 2026-03-27 con details via startUrls (por placeId)
 
 ---
 
@@ -85,10 +90,12 @@ Score = (rating/5 * 50) + min(log10(reviews+1) * 10, 30) + (24h ? 20 : 0)
 
 ## Pendientes
 
-- [ ] Poblar hoja Details (amenities: ATM, car wash, tienda, cafe)
-- [ ] Sincronizar CSV con XLSX (75 vs 563 filas)
+- [x] Poblar hoja Details (amenities via Apify startUrls) — DONE sesion 2026-03-27
+- [x] Sincronizar CSV con XLSX — DONE (CSVs eliminados, XLSX es fuente unica)
+- [ ] Formatear XLSX para Fiverr (brainstorming iniciado, objetivo: screenshots profesionales)
 - [ ] Migrar a uv (actualmente pip + venv)
 - [ ] Screenshots alta resolucion para Fiverr (3 tomas)
+- [ ] Commit de cambios sesion 2026-03-27 (archivos nuevos + modificados)
 
 ---
 

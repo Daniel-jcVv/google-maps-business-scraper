@@ -51,6 +51,12 @@ def parse_apify_data(raw_data: Dict[str, Any]) -> GasStation:
     else:
         precio = None
 
+    # Extract amenities from additionalInfo
+    additional_info = raw_data.get('additionalInfo', {})
+    if not isinstance(additional_info, dict):
+        additional_info = {}
+    amenities = extract_amenities(additional_info, name)
+
     return GasStation(
         Station_ID=station_id,
         Station_Name=name,
@@ -61,6 +67,37 @@ def parse_apify_data(raw_data: Dict[str, Any]) -> GasStation:
         Latitude=lat,
         Longitude=lng,
         Precio_Litro=precio,
+        Nearby_ATM=amenities["has_atm"],
+        Nearby_Coffee=amenities["has_coffee"],
+        Nearby_Mechanic=False,
+        Nearby_OXXO=amenities["has_oxxo"],
+        Has_CarWash=amenities["has_car_wash"],
+        Has_Store=amenities["has_store"],
         address=raw_data.get('address', 'N/A'),
         Google_Maps_URL=raw_data.get('url', '')
     )
+
+def extract_amenities(additional_info: dict, station_name: str) -> dict:
+    """Extract amenity booleans from Apify additionalInfo field."""
+
+    # Paso 1: juntar TODOS los nombres de servicios en un solo texto
+    # Ejemplo: "Air pump Restroom Convenience store Diesel gas Credit cards"
+    # Asi despues buscamos keywords con "in" de forma simple
+    all_services = ""
+    for category in additional_info.values():   # recorre ["Amenities", "Offerings", ...]
+        for item in category:                   # cada item es {"Air pump": True}
+            for key in item:                    # key = "Air pump" (el nombre)
+                all_services += key + " "
+
+    # Paso 2: convertir a minusculas para que la busqueda no falle por mayusculas
+    all_services = all_services.lower()
+    name_lower = station_name.lower()
+
+    # Paso 3: buscar cada amenity por keyword
+    return {
+        "has_atm": "atm" in all_services,
+        "has_car_wash": "car wash" in all_services,
+        "has_store": "convenience store" in all_services or "tienda" in all_services,
+        "has_oxxo": "oxxo" in name_lower,          # oxxo esta en el nombre, no en amenities
+        "has_coffee": "coffee" in all_services or "café" in all_services,
+    }

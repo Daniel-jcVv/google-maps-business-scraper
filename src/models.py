@@ -18,6 +18,8 @@ class GasStation(BaseModel):
     Nearby_Coffee: bool = False
     Nearby_Mechanic: bool = False
     Nearby_ATM: bool = False
+    Has_CarWash: bool = False
+    Has_Store: bool = False
     
     # Dashboard calculated fields (Matching Sheets Headers)
     Ranking: Optional[int] = None
