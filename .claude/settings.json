@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_TOOL_INPUT\" | grep -q '\\.env' && echo 'BLOQUEADO: .env contiene credenciales, no editar' && exit 1 || exit 0"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+        {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_TOOL_INPUT\" | grep -q 'src/' && cd /home/judah/411013/a2-c1-oraElLabora/projects/maps_scraper && python -m pytest tests/ -q 2>&1 | tail -5 || exit 0"
+          }
+        ]
+      }
+    ]
+  },
+  "ignorePatterns": ["venv", ".n8n/", "node_modules", "__pycache__"]
+}
