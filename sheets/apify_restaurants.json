@@ -1,0 +1,6143 @@
+[
+  {
+    "title": "130 Grados Steakhouse Querétaro",
+    "price": "MX$1,000+",
+    "categoryName": "Steak house",
+    "address": "Brasil 29, Lomas de Queretaro, 76190 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Lomas de Queretaro",
+    "street": "Brasil 29",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76190",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.130grados.mx/",
+    "phone": "+52 442 847 3813",
+    "phoneUnformatted": "+524428473813",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5721201,
+      "lng": -100.4059284
+    },
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJpcZ3ngBF04URV43PimP-zQE",
+    "categories": [
+      "Steak house"
+    ],
+    "fid": "0x85d345009e77c6a5:0x1cdfe638acf8d57",
+    "cid": "130039667747687767",
+    "reviewsCount": 1075,
+    "imagesCount": 835,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.926Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/GJ-hUOIogpM?source=pa&opi=79508299&hl=en-US&gei=KH_HaYaNDuDY5NoP1L2hiQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3199722.634370091!2d-122.6715335!3d38.447722899999995!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sJn_HacV9vJDBuQ-_h46oCA!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurants%2Bin%2BQueretaro%2BMexixo%26ech%3D1%26psi%3DJn_HacV9vJDBuQ-_h46oCA.1774681894162.1",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1 PM to 1 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1 PM to 1 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1 PM to 1 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1 PM to 1 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1 PM to 2 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "1 PM to 2 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1 to 6 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        },
+        {
+          "Delivery": false
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Live music": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Reservations required": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=130%20Grados%20Steakhouse%20Quer%C3%A9taro&query_place_id=ChIJpcZ3ngBF04URV43PimP-zQE",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerWb4T_LHvMqg5HDhZZT8-v21bnaQtxzEiIEdDQjF410Yyelt0yGm5DHGUdQNSzueZ4VuQOG1caNijF4_rXn1clUXr8gerqcsW-epb4kSRrUQBLxnxQGyjrxsDTZXbWDz2GDHIy=w408-h408-k-no",
+    "kgmid": "/g/11rrvq08hw"
+  },
+  {
+    "title": "Hacienda Laborcilla",
+    "description": "Polished eatery in a restored 18th-century hacienda offering leafy outdoor seating & a fountain.",
+    "price": "$$$",
+    "categoryName": "Restaurant",
+    "address": "Prol. Corregidora Nte. 911 bis, Quinta la Laborcilla, 76168 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Quinta la Laborcilla",
+    "street": "Prol. Corregidora Nte. 911 bis",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76168",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.haciendalaborcilla.com/",
+    "phone": "+52 442 245 2439",
+    "phoneUnformatted": "+524422452439",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.6129347,
+      "lng": -100.388559
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJCzisuB5b04URvDmfy2FBl2E",
+    "categories": [
+      "Restaurant",
+      "Bar",
+      "Bar & grill",
+      "Breakfast restaurant",
+      "Fusion restaurant"
+    ],
+    "fid": "0x85d35b1eb8ac380b:0x61974161cb9f39bc",
+    "cid": "7032161231446161852",
+    "reviewsCount": 10731,
+    "imagesCount": 12771,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.927Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/ejmCfpdLoCc?source=pa&opi=79508299&hl=en-US&gei=KH_HaYaNDuDY5NoP1L2hiQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3199722.634370091!2d-122.6715335!3d38.447722899999995!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sJn_HacV9vJDBuQ-_h46oCA!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurants%2Bin%2BQueretaro%2BMexixo%26ech%3D1%26psi%3DJn_HacV9vJDBuQ-_h46oCA.1774681894162.1",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 12 AM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Live music": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Happy hour drinks": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Historic": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Brunch reservations recommended": true
+        },
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Hacienda%20Laborcilla&query_place_id=ChIJCzisuB5b04URvDmfy2FBl2E",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepYYmV4tMgIp2pz7r8Au0Cf28Ug-6ngU1gGJje4NlG4Me053lhJms_7E9GAKn5cd_hntBYkuOja2qFFSucCaNpaJZ94tjDer6ZvX2LHejpEFzZpZZhPpCSosLyGlsXhrb-x7MN2Sg=w506-h240-k-no",
+    "kgmid": "/g/1vd95g1c"
+  },
+  {
+    "title": "Cabo Sierra",
+    "price": null,
+    "categoryName": "Restaurant",
+    "address": "Prol. Bernardo Quintana 30, Calesa, 76020 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Calesa",
+    "street": "Prol. Bernardo Quintana 30",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76020",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.cabosierra.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16537793470922407642",
+    "phone": "+52 442 488 8043",
+    "phoneUnformatted": "+524424888043",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5994931,
+      "lng": -100.3747695
+    },
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJb80rszdb04UR0pVuHwUYO0c",
+    "categories": [
+      "Restaurant"
+    ],
+    "fid": "0x85d35b37b32bcd6f:0x473b18051f6e95d2",
+    "cid": "5132722610600056274",
+    "reviewsCount": 513,
+    "imagesCount": 428,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.927Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/00PAfrlL_AA?source=pa&opi=79508299&hl=en-US&gei=KH_HaYaNDuDY5NoP1L2hiQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3199722.634370091!2d-122.6715335!3d38.447722899999995!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sJn_HacV9vJDBuQ-_h46oCA!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurants%2Bin%2BQueretaro%2BMexixo%26ech%3D1%26psi%3DJn_HacV9vJDBuQ-_h46oCA.1774681894162.1",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "2 PM to 12 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "2 PM to 12 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "2 PM to 12 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "2 PM to 2:30 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "2 PM to 2:30 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "2 PM to 2:30 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "2 to 8 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Dine-in": true
+        },
+        {
+          "Delivery": false
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        }
+      ],
+      "Planning": [
+        {
+          "Reservations required": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Cabo%20Sierra&query_place_id=ChIJb80rszdb04UR0pVuHwUYO0c",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMX-TwH6vQWC14Diyw6w4aJHsJ7nXhHjKhMGnGBzKBujvxshtudILn8yVhpN1c9jkqo1isnqKvwi_5xA3YDTm2r_eMHMEpsx_7Uw_IE6mYpEBNWVt2_m0oyMAvQHo7w1aXI8fA=w408-h306-k-no",
+    "kgmid": "/g/11t74bv12f"
+  },
+  {
+    "title": "Carranza 50",
+    "subTitle": "Carranza 50 Terraza & Grill",
+    "description": "Refined dishes like grilled octopus & beef shank in an 18th-century mansion with a terrace & views.",
+    "price": "$$",
+    "categoryName": "Restaurant",
+    "address": "C. Venustiano Carranza 50, La Santa Cruz, Centro, 76020 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "La Santa Cruz, Centro",
+    "street": "C. Venustiano Carranza 50",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76020",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.carranza50.com.mx/",
+    "phone": "+52 442 212 3031",
+    "phoneUnformatted": "+524422123031",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5930346,
+      "lng": -100.3862707
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ3chRrS1b04URaexj2wsDFmw",
+    "categories": [
+      "Restaurant",
+      "Bar",
+      "Event venue",
+      "Mexican restaurant"
+    ],
+    "fid": "0x85d35b2dad51c8dd:0x6c16030bdb63ec69",
+    "cid": "7788415955044133993",
+    "reviewsCount": 2392,
+    "imagesCount": 1786,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.927Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "2 PM to 1 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "2 PM to 1 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "2 PM to 1 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "2 PM to 1 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "2 PM to 1 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "2 PM to 1 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1 to 7 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Drive-through": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": false
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Vegan options": true
+        },
+        {
+          "Vegetarian options": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Tourists": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "High chairs": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid street parking": true
+        },
+        {
+          "Usually somewhat difficult to find a space": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Carranza%2050&query_place_id=ChIJ3chRrS1b04URaexj2wsDFmw",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoNMR7CTNUzFBASi4-lAKj9BbpnA8gyyUIx_GIKGnDlyTe7Hn8FD0BMECHYoB07kg03fgzn6-0ckFymHP9bsjmEL9v9LH3qNla13hwa_wWmUml7R5MF39gIQpcDGhMBVYdQctGvVQ=w408-h306-k-no",
+    "kgmid": "/g/11b6gbx1kz"
+  },
+  {
+    "title": "Chucho El Roto",
+    "subTitle": "El Mesón de Chucho El Roto",
+    "description": "Tacos, tostadas & mezcal cocktails in a rustic setup with terrace tables & a lively vibe.",
+    "price": "$$",
+    "categoryName": "Mexican restaurant",
+    "address": "Av. Luis Pasteur Sur 16, Centro, 76000 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Centro",
+    "street": "Av. Luis Pasteur Sur 16",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76000",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.chuchoelroto.com.mx/",
+    "phone": "+52 442 212 4295",
+    "phoneUnformatted": "+524422124295",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5927545,
+      "lng": -100.3893559
+    },
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJsdKPgvpE04URyva84BL22Gw",
+    "categories": [
+      "Mexican restaurant"
+    ],
+    "fid": "0x85d344fa828fd2b1:0x6cd8f612e0bcf6ca",
+    "cid": "7843289312006043338",
+    "reviewsCount": 10107,
+    "imagesCount": 5731,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.928Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8 AM to 11 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Onsite services": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Live music": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        },
+        {
+          "Wheelchair accessible parking lot": false
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Vegetarian options": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Historic": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Brunch reservations recommended": true
+        },
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid street parking": true
+        },
+        {
+          "Usually somewhat difficult to find a space": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Chucho%20El%20Roto&query_place_id=ChIJsdKPgvpE04URyva84BL22Gw",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoeLK86HrCcq1pL8okCtwLbHnBIiK5IE-9t0NJn2vTFd1A6dlUFIXbNeMEyBdw55v5krbVNVVP6KO7KL0zRFXw3qI-fmaoL-kzwoEpITrAJCIGzE42hQ9nmyf8-3G33bzfT7Ko1=w408-h306-k-no",
+    "kgmid": "/g/1tjfh5r_"
+  },
+  {
+    "title": "Tikua - SouthEast Mexican cuisine",
+    "subTitle": "Tikua Sur Este - Centro Histórico",
+    "description": "Quaint place for creative regional Mexican food, with a brightly painted mural & a secluded terrace.",
+    "price": "$$$",
+    "categoryName": "Mexican restaurant",
+    "address": "C. Ignacio Allende Sur 13, Centro, 76000 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Centro",
+    "street": "C. Ignacio Allende Sur 13",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76000",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.tikua.mx/",
+    "phone": "+52 442 403 4677",
+    "phoneUnformatted": "+524424034677",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5910131,
+      "lng": -100.3932327
+    },
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJAaW17Cpb04UROK2iVI57Gmw",
+    "categories": [
+      "Mexican restaurant",
+      "Breakfast restaurant"
+    ],
+    "fid": "0x85d35b2aecb5a501:0x6c1a7b8e54a2ad38",
+    "cid": "7789674356726213944",
+    "reviewsCount": 4225,
+    "imagesCount": 5511,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.928Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 11 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 8 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Onsite services": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Live music": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible restroom": false
+        },
+        {
+          "Wheelchair accessible seating": false
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Organic dishes": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Salad bar": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Vegetarian options": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Tourists": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ],
+      "Planning": [
+        {
+          "Brunch reservations recommended": true
+        },
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Usually somewhat difficult to find a space": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tikua%20-%20SouthEast%20Mexican%20cuisine&query_place_id=ChIJAaW17Cpb04UROK2iVI57Gmw",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq-OYEYsptlalBLG1KOSXMSbR31b7t_UsVpS3tZovQKdB7lSPq1G_rwMf9oTcrVx0aEl3NwlEdORzJySClhzvHMWCeY1BVyZOOzAa5P1mdsGuyAKyij6PMMDP3vQzLvY7Z9ePPv=w426-h240-k-no",
+    "kgmid": "/g/1pxwlrxcq"
+  },
+  {
+    "title": "il Duomo Cocina Italiana",
+    "price": "$$",
+    "categoryName": "Italian restaurant",
+    "address": "Blvd. Bernardo Quintana Arrioja 32, Calesa, 76020 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Calesa",
+    "street": "Blvd. Bernardo Quintana Arrioja 32",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76020",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.grupopasta.com/",
+    "phone": "+52 442 213 7768",
+    "phoneUnformatted": "+524422137768",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 20.5997029,
+      "lng": -100.3748168
+    },
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJZ3b7Bjdb04URPYwOrZTi3Lc",
+    "categories": [
+      "Italian restaurant"
+    ],
+    "fid": "0x85d35b3706fb7667:0xb7dce294ad0e8c3d",
+    "cid": "13248713332003605565",
+    "reviewsCount": 2689,
+    "imagesCount": 1259,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.928Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1 to 11 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1 PM to 12:30 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "1 PM to 12:30 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1 to 7 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Has changing table(s)": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=il%20Duomo%20Cocina%20Italiana&query_place_id=ChIJZ3b7Bjdb04URPYwOrZTi3Lc",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 7,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepHIMUq6CtlcQzEaSHmsCWjv6awarDcdWp5xw1QSADq8auWSTk2xWNIMtO2lXVEt17dLzvYqAtMGcxLwiAW4YX1qNe0s0ZMLOad8mVzuwpvVn4i-h44ugW6NRjl0ictfnb7Z0IJrQ=w408-h306-k-no",
+    "kgmid": "/g/1v_snl86"
+  },
+  {
+    "title": "Argentilia Querétaro",
+    "description": "Upscale restaurant serving Argentinian-style steak, seafood & desserts in an elegant dining room.",
+    "price": "$$$",
+    "categoryName": "Argentinian restaurant",
+    "address": "59, Av. Constituyentes, Casa Blanca, 76030 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Casa Blanca",
+    "street": "59, Av. Constituyentes",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76030",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://argentilia.mx/",
+    "phone": "+52 442 215 1005",
+    "phoneUnformatted": "+524422151005",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5820892,
+      "lng": -100.3970316
+    },
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJE-AvmylF04URNwcyzF9qYQI",
+    "categories": [
+      "Argentinian restaurant",
+      "Bar",
+      "Italian restaurant"
+    ],
+    "fid": "0x85d345299b2fe013:0x2616a5fcc320737",
+    "cid": "171535220497057591",
+    "reviewsCount": 3336,
+    "imagesCount": 1744,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.928Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/PayBDbyBamw?source=pa&opi=79508299&hl=en-US&gei=KH_HaYaNDuDY5NoP1L2hiQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3199722.634370091!2d-122.6715335!3d38.447722899999995!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sJn_HacV9vJDBuQ-_h46oCA!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurants%2Bin%2BQueretaro%2BMexixo%26ech%3D1%26psi%3DJn_HacV9vJDBuQ-_h46oCA.1774681894162.1",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1:30 to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1:30 to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1:30 to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1:30 PM to 12 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1:30 PM to 12 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "1:30 PM to 12 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1:30 to 6 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Rooftop seating": true
+        },
+        {
+          "Sports": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Argentilia%20Quer%C3%A9taro&query_place_id=ChIJE-AvmylF04URNwcyzF9qYQI",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 8,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweonMpKBQ677k0LfDynABKQqIuGcaP47yUKyaiO851OJi-XoR01t--KhNWYeHzU8sx92-r-Ytbe41g6UXsbwKXEMPBINcMXPNW6Vm75bWzuan3s6cdqg1KzBgAH5hrcgd7slS8ND=w408-h306-k-no",
+    "kgmid": "/g/1vmr1qx1"
+  },
+  {
+    "title": "Ziracco",
+    "description": "Soups, Italian rice & pizzas presented in chic surroundings with terrace seating.",
+    "price": "$$$",
+    "categoryName": "Restaurant",
+    "address": "Calz. de los Arcos 161, Calesa, 76020 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Calesa",
+    "street": "Calz. de los Arcos 161",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76020",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://ziracco.com/",
+    "phone": "+52 442 538 2371",
+    "phoneUnformatted": "+524425382371",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5973504,
+      "lng": -100.3717871
+    },
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJVVWR5klb04UR2fJ5ydGVLrM",
+    "categories": [
+      "Restaurant"
+    ],
+    "fid": "0x85d35b49e6915555:0xb32e95d1c979f2d9",
+    "cid": "12911421909978706649",
+    "reviewsCount": 775,
+    "imagesCount": 905,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.928Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/8Bz85ng79y8?source=pa&opi=79508299&hl=en-US&gei=KH_HaYaNDuDY5NoP1L2hiQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3199722.634370091!2d-122.6715335!3d38.447722899999995!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sJn_HacV9vJDBuQ-_h46oCA!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurants%2Bin%2BQueretaro%2BMexixo%26ech%3D1%26psi%3DJn_HacV9vJDBuQ-_h46oCA.1774681894162.1",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1 to 6 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ziracco&query_place_id=ChIJVVWR5klb04UR2fJ5ydGVLrM",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 9,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4z9HM3nv4pdRB86dJwVqRIjVEnqCDZYKSGKNPjrB25C56V0S_uQ8iIjAkg1Rthq9MjdBhq0bpUUBHw19z6ssep0Fuk9PVYldPBGY89IiTai4pKnrxsSHp-3QwDiEGgff7y1J2=w408-h272-k-no",
+    "kgmid": "/g/11qqp4kpyf"
+  },
+  {
+    "title": "Mochomos Querétaro",
+    "price": "MX$1,000+",
+    "categoryName": "Restaurant",
+    "address": "Prol. Bernardo Quintana 5260-1D, Colinas del Parque, 76140 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Colinas del Parque",
+    "street": "Prol. Bernardo Quintana 5260-1D",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76140",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://mochomos.mx/",
+    "phone": "+52 442 902 6179",
+    "phoneUnformatted": "+524429026179",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.6070957,
+      "lng": -100.3777482
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJO1uX_Ttb04UR7TTOzAfXEiQ",
+    "categories": [
+      "Restaurant"
+    ],
+    "fid": "0x85d35b3bfd975b3b:0x2412d707ccce34ed",
+    "cid": "2599376363447006445",
+    "reviewsCount": 2453,
+    "imagesCount": 1594,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.929Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "1 PM to 12 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1 to 7 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid street parking": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mochomos%20Quer%C3%A9taro&query_place_id=ChIJO1uX_Ttb04UR7TTOzAfXEiQ",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 10,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep87tCbW1eQlS1MZkYId2YlfGv7Aq-uqsGrxyBKQ2TLW_nAskCogKhhlrO-EvC_p6TWNkbwvKxCVx-tWAoM0tOrXESEwulRPOlDj8bkE3ka7Fbp6ZK6G3KcFrmwLx7pew0geynw=w408-h306-k-no",
+    "kgmid": "/g/11bwh5s5lc"
+  },
+  {
+    "title": "Restaurante Bar Hank's Querétaro",
+    "price": "$$",
+    "categoryName": "Restaurant",
+    "address": "Acceso por la, Calle Benito Juárez Sur, Pl. Constitución 7, Centro, 76000 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Centro",
+    "street": "Acceso por la, Calle Benito Juárez Sur, Pl. Constitución 7",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76000",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://www.hanksmexico.com/",
+    "phone": "+52 442 214 2620",
+    "phoneUnformatted": "+524422142620",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5919303,
+      "lng": -100.3918839
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJEXP8_ypb04URcpMHadwogVE",
+    "categories": [
+      "Restaurant",
+      "Bar"
+    ],
+    "fid": "0x85d35b2afffc7311:0x518128dc69079372",
+    "cid": "5873020316187857778",
+    "reviewsCount": 3958,
+    "imagesCount": 2303,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.929Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "12 PM to 12 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "12 PM to 12 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "12 PM to 12 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "12 PM to 12 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "12 PM to 1 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "12 PM to 1 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "12 to 11 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Onsite services": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Fireplace": true
+        },
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Live music": true
+        },
+        {
+          "Rooftop seating": true
+        },
+        {
+          "Sports": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Happy hour drinks": true
+        },
+        {
+          "Happy hour food": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Counter service": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Historic": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Brunch reservations recommended": true
+        },
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Reservations required": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Restaurante%20Bar%20Hank's%20Quer%C3%A9taro&query_place_id=ChIJEXP8_ypb04URcpMHadwogVE",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 11,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqKR1YySHN437qV0V7Zsg96X2-Ua0QE7ExRxeyjTuv9NoXrEr16xK1FEwi7FS6H1MG-cW3Un-p4hiynD85UV4AJ0PhVQoDc4iZwZP3Xxl2znbTLOEeqGp_QejWN0e7fEkhLmUkmhg=w408-h306-k-no",
+    "kgmid": "/g/1td2h7x0"
+  },
+  {
+    "title": "La Unica Querétaro",
+    "price": null,
+    "categoryName": "Restaurant",
+    "address": "Calz. de los Arcos 33, Bosques del Acueducto, 76020 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Bosques del Acueducto",
+    "street": "Calz. de los Arcos 33",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76020",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.launica.mx/",
+    "phone": "+52 442 213 5883",
+    "phoneUnformatted": "+524422135883",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5941509,
+      "lng": -100.3763299
+    },
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJhWjd3v5b04URI2EQ_O9n4Jo",
+    "categories": [
+      "Restaurant"
+    ],
+    "fid": "0x85d35bfededd6885:0x9ae067effc106123",
+    "cid": "11160034157047865635",
+    "reviewsCount": 745,
+    "imagesCount": 443,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.929Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/1qI-mSmsO0k?source=pa&opi=79508299&hl=en-US&gei=KH_HaYaNDuDY5NoP1L2hiQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3199722.634370091!2d-122.6715335!3d38.447722899999995!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sJn_HacV9vJDBuQ-_h46oCA!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurants%2Bin%2BQueretaro%2BMexixo%26ech%3D1%26psi%3DJn_HacV9vJDBuQ-_h46oCA.1774681894162.1",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1 PM to 2 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1 PM to 2 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1 PM to 2 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1 PM to 2 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1 PM to 2 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "1 PM to 2 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1 to 10 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        },
+        {
+          "Delivery": false
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Reservations required": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "High chairs": true
+        }
+      ],
+      "Parking": [
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Unica%20Quer%C3%A9taro&query_place_id=ChIJhWjd3v5b04URI2EQ_O9n4Jo",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 12,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoM8AQ8mClLMsxkDebduI8obv_elaCesuIvgW_5FQ4g_2ISLjMG1_vmdnykxmKzOC7odK6KPx4tAUo3DdO74NfVLaUKK_c9TSYqRk7wDCrhSonKDuqyHNQC6wyfnA5YwQYXD3Sw=w408-h306-k-no",
+    "kgmid": "/g/11s57qwltg"
+  },
+  {
+    "title": "Restaurante Fogón Zapoteco en Centro Querétaro",
+    "price": "MX$200–300",
+    "categoryName": "Restaurant",
+    "address": "C. Francisco I. Madero Poniente 86, Centro, 76000 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Centro",
+    "street": "C. Francisco I. Madero Poniente 86",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76000",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://www.facebook.com/fogonzapoteco/",
+    "phone": "+52 442 464 7128",
+    "phoneUnformatted": "+524424647128",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5907267,
+      "lng": -100.397523
+    },
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJDykoE8U_04URB3gu4vtHwO4",
+    "categories": [
+      "Restaurant",
+      "Breakfast restaurant",
+      "Brunch restaurant",
+      "Espresso bar",
+      "Mexican restaurant",
+      "Mobile caterer",
+      "Vegan restaurant",
+      "Vegetarian restaurant"
+    ],
+    "fid": "0x85d33fc51328290f:0xeec047fbe22e7807",
+    "cid": "17203829723712354311",
+    "reviewsCount": 1360,
+    "imagesCount": 982,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.929Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "12:30 to 8 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "12:30 to 8 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "12:30 to 8 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "12:30 to 8 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 8 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 6:30 PM"
+      }
+    ],
+    "additionalOpeningHours": {
+      "Breakfast": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9 AM–1 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9 AM–1 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9 AM–1 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9 AM–1 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "9 AM–1 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "9 AM–1 PM"
+        }
+      ]
+    },
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Delivery": true
+        },
+        {
+          "Onsite services": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Sports": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        },
+        {
+          "Assistive hearing loop": false
+        },
+        {
+          "Wheelchair accessible entrance": false
+        }
+      ],
+      "Offerings": [
+        {
+          "Coffee": true
+        },
+        {
+          "Organic dishes": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Vegan options": true
+        },
+        {
+          "Vegetarian options": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Tourists": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ],
+      "Planning": [
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Ticket Restaurant": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        },
+        {
+          "Dogs allowed inside": true
+        },
+        {
+          "Dogs allowed outside": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Restaurante%20Fog%C3%B3n%20Zapoteco%20en%20Centro%20Quer%C3%A9taro&query_place_id=ChIJDykoE8U_04URB3gu4vtHwO4",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 13,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerErpT8NdGCTzqMYzkcuaJeHi_4ZskFrcOj35HNYOGEdcqg9lm-GqFynyr6vh0uKnPh9o_vhn7PWo2NpOZdv5Snwhs3zHtWZb1zHA5Fhzhzp04nC1Jj9udKkG_-PNFlTLy5cxFYlw=w456-h240-k-no",
+    "kgmid": "/g/11bzs0jmvv"
+  },
+  {
+    "title": "Santo Mar",
+    "subTitle": "Santo Mar Antea",
+    "price": null,
+    "categoryName": "Seafood restaurant",
+    "address": "San Luis Potosí - Santiago de Querétaro, 76127 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": null,
+    "street": "San Luis Potosí - Santiago de Querétaro",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76127",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://santomar.shop/",
+    "phone": "+52 442 747 3131",
+    "phoneUnformatted": "+524427473131",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.6748431,
+      "lng": -100.4378469
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJNSVTJgFa04URGuB0DewnHwg",
+    "categories": [
+      "Seafood restaurant",
+      "Bar"
+    ],
+    "fid": "0x85d35a0126532535:0x81f27ec0d74e01a",
+    "cid": "585230371372982298",
+    "reviewsCount": 2884,
+    "imagesCount": 1346,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.930Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "1:30 PM to 1 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "1:30 PM to 1 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "1:30 PM to 1 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "1:30 PM to 1 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "1:30 PM to 1 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "1:30 PM to 1 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1:30 to 7 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Rooftop seating": true
+        },
+        {
+          "Sports": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Happy hour drinks": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        },
+        {
+          "Usually plenty of parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Santo%20Mar&query_place_id=ChIJNSVTJgFa04URGuB0DewnHwg",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 14,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerQ_HntbgKSpFw-zRl84rGrFgmShHkXezwje-d5u9aw9DTDsRpFZdZUawYRXKjzgnWWZ_vgttPVffh54fsFD5wOfpUA02GlX4WMZkceuUPTIUSzyEEVt4SiDbK3R_u2ROAHZpJi=w408-h544-k-no",
+    "kgmid": "/g/11bw3d74rw"
+  },
+  {
+    "title": "Oliva",
+    "price": "MX$200–300",
+    "categoryName": "Breakfast restaurant",
+    "address": "76000, Av. Universidad 37 a, Centro, 76000 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Centro",
+    "street": "76000, Av. Universidad 37 a",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76000",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://www.facebook.com/OLIVA-restaurante-1463838460302252/?fref=ts",
+    "phone": "+52 442 212 7059",
+    "phoneUnformatted": "+524422127059",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5971743,
+      "lng": -100.3986409
+    },
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJhysq59Za04URYQZLIP37JHo",
+    "categories": [
+      "Breakfast restaurant",
+      "Restaurant"
+    ],
+    "fid": "0x85d35ad6e72a2b87:0x7a24fbfd204b0661",
+    "cid": "8801436636375877217",
+    "reviewsCount": 819,
+    "imagesCount": 590,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.930Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 1:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 1:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 1:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 1:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 1:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 1:30 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8 AM to 1:30 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Breakfast": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Coffee": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        }
+      ],
+      "Planning": [
+        {
+          "Brunch reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid street parking": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Oliva&query_place_id=ChIJhysq59Za04URYQZLIP37JHo",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 15,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq1oMwwXJ7cQxe20RBRzTTPmVZ8MIf6joe3dgW2GFQJSwqBfGoF6dA_PLHlFrm4Vxu-wwauRsjBQ-yunEI-ZuS7ciwst5pCF7BO61zKQoGKeOciwODhrVz_2kOEmkcgQabRA1ad=w408-h280-k-no",
+    "kgmid": "/g/11dxkf53yr"
+  },
+  {
+    "title": "Parrilla Leonesa",
+    "price": "$$",
+    "categoryName": "Grill",
+    "address": "Av. Constituyentes Ote. 138, Panamericano, 76000 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Panamericano",
+    "street": "Av. Constituyentes Ote. 138",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76000",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.parrillaleonesa.com.mx/",
+    "phone": "+52 442 216 2123",
+    "phoneUnformatted": "+524422162123",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5811348,
+      "lng": -100.3992154
+    },
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJs3TKailF04URS7ubzvmMgz4",
+    "categories": [
+      "Grill",
+      "Bar",
+      "Breakfast restaurant",
+      "Mexican restaurant",
+      "Taco restaurant"
+    ],
+    "fid": "0x85d345296aca74b3:0x3e838cf9ce9bbb4b",
+    "cid": "4504599056841685835",
+    "reviewsCount": 5253,
+    "imagesCount": 1214,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.930Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "7 AM to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "7 AM to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "7 AM to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "7 AM to 11 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "7 AM to 11 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "7 AM to 11 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "7 AM to 11 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Sports": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Brunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid street parking": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Parrilla%20Leonesa&query_place_id=ChIJs3TKailF04URS7ubzvmMgz4",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 16,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoCJ8DdwewFKptEFwaabGpv-j6IQL_VBrEav-0gf6KARssl58ZyPzAQ0zMVQrueM8zcn-vKsUA5W1CziQoZ-OZIYRjav6nk9D7wBkGvILaAWEjk9mcKRKNmheQ773WdCNdV8fY67A=w408-h306-k-no",
+    "kgmid": "/g/1v8y4cn_"
+  },
+  {
+    "title": "Hacienda El Salitre",
+    "description": "Circa-1600s hacienda-turned-hotel offering a genteel restaurant with a bar, plus a garden.",
+    "price": "$75",
+    "categoryName": "Restaurant",
+    "address": "Rafael Osuna SN, Raquet Club, 76127 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Raquet Club",
+    "street": "Rafael Osuna SN",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76127",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://www.elsalitre.mx/",
+    "phone": "+52 442 825 8866",
+    "phoneUnformatted": "+524428258866",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.6669695,
+      "lng": -100.4266499
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJW2KAkBBa04URjVJYsh2yuz4",
+    "categories": [
+      "Restaurant",
+      "Hotel",
+      "Spa"
+    ],
+    "fid": "0x85d35a109080625b:0x3ebbb21db258528d",
+    "cid": "4520402491612353165",
+    "reviewsCount": 3118,
+    "imagesCount": 3841,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.930Z",
+    "googleFoodUrl": null,
+    "hotelStars": "Restaurant",
+    "hotelDescription": "Set in a 17th-century hacienda, this old-world hotel is 16 km from Plaza de Armas in the historic center of Santiago de Querétaro, and 37 km from Querétaro Intercontinental Airport.\n Featuring terracotta tile floors, the unfussy rooms come with flat-screen TVs, air-conditioning and en suite bathrooms, as well as tea and coffeemakers; some have 4-poster beds. A suite has a rustic stone fireplace. Room service is available.\n A genteel restaurant has a bar and a terrace. Other amenities include a garden, a playground and event space.",
+    "checkInDate": "2026-05-10",
+    "checkOutDate": "2026-05-11",
+    "similarHotelsNearby": [
+      {
+        "name": "Fairfield by Marriott Inn & Suites Queretaro Juriquilla",
+        "rating": 4.3,
+        "reviews": 1794,
+        "description": "Free breakfast",
+        "price": "$65"
+      },
+      {
+        "name": "Ramada Encore by Wyndham Queretaro",
+        "rating": 4.5,
+        "reviews": 2968,
+        "description": "Free parking",
+        "price": "$65"
+      },
+      {
+        "name": "Aloft Queretaro",
+        "rating": 4.4,
+        "reviews": 932,
+        "description": "Free parking",
+        "price": "$98"
+      },
+      {
+        "name": "Holiday Inn Queretaro Zona Krystal by IHG",
+        "rating": 4.6,
+        "reviews": 2837,
+        "description": "Free parking",
+        "price": "$101"
+      },
+      {
+        "name": "City Express Suites by Marriott Querétaro",
+        "rating": 4.4,
+        "reviews": 3183,
+        "description": "Free breakfast and parking",
+        "price": "$74"
+      },
+      {
+        "name": "Staybridge Suites Queretaro by IHG",
+        "rating": 4.4,
+        "reviews": 1536,
+        "description": "Free breakfast and parking",
+        "price": "$85"
+      },
+      {
+        "name": "Hotel Hacienda Jurica by Brisas",
+        "rating": 4.6,
+        "reviews": 6388,
+        "description": "Free breakfast and parking",
+        "price": "$64"
+      },
+      {
+        "name": "Homewood Suites by Hilton Queretaro",
+        "rating": 4.4,
+        "reviews": 1311,
+        "description": "Free breakfast and parking",
+        "price": "$64"
+      },
+      {
+        "name": "Four Points by Sheraton Queretaro Norte",
+        "rating": 4.4,
+        "reviews": 1867,
+        "description": "Free parking",
+        "price": "$63"
+      }
+    ],
+    "hotelAds": [],
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Hacienda%20El%20Salitre&query_place_id=ChIJW2KAkBBa04URjVJYsh2yuz4",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 17,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/df/e6/0d/frente-de-hotel.jpg?w=2100&h=1400&s=1",
+    "kgmid": "/g/1tdm8p7v"
+  },
+  {
+    "title": "La Bocha",
+    "price": "$$$",
+    "categoryName": "Argentinian restaurant",
+    "address": "Prol. Bernardo Quintana 5260, Residencial Viveros, 76140 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Residencial Viveros",
+    "street": "Prol. Bernardo Quintana 5260",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76140",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://www.instagram.com/labochaqro",
+    "phone": "+52 442 245 3142",
+    "phoneUnformatted": "+524422453142",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.6072932,
+      "lng": -100.3777635
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJpxfxVTlb04URT-v_El5BX-M",
+    "categories": [
+      "Argentinian restaurant"
+    ],
+    "fid": "0x85d35b3955f117a7:0xe35f415e12ffeb4f",
+    "cid": "16383885841698646863",
+    "reviewsCount": 2067,
+    "imagesCount": 1107,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.930Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "7 AM to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "7 AM to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "7 AM to 3 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "7 AM to 3 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "7 AM to 3 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 3 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8 AM to 7 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Live music": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Brunch reservations recommended": true
+        },
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "High chairs": true
+        }
+      ],
+      "Parking": [
+        {
+          "On-site parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Bocha&query_place_id=ChIJpxfxVTlb04URT-v_El5BX-M",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 18,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoJ94mlJ2LuG5Qvc89h9IpQOq8wPUHPOl0Z6ZwSIIAxzIPq-D1SG4-XEWgyua27q8a7mGEEF9M6szQBXOqS22zoF93KaQkEePmLROg2nhD_5Tqik0i_pjV0NFZcSKbTV3ul8g=w408-h306-k-no",
+    "kgmid": "/g/11cks0qrv0"
+  },
+  {
+    "title": "Tacos El Pata",
+    "subTitle": "Tacos El Pata Cimatario",
+    "price": "MX$200–300",
+    "categoryName": "Taco restaurant",
+    "address": "Fray Pedro de Gante 8, Cimatario, 76030 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Cimatario",
+    "street": "Fray Pedro de Gante 8",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76030",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "http://tacoselpata.com/",
+    "phone": "+52 442 224 1376",
+    "phoneUnformatted": "+524422241376",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5838375,
+      "lng": -100.3935783
+    },
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJAQeR59VE04URIdDTJTt_uVI",
+    "categories": [
+      "Taco restaurant",
+      "Fast food restaurant"
+    ],
+    "fid": "0x85d344d5e7910701:0x52b97f3b25d3d021",
+    "cid": "5960935473815998497",
+    "reviewsCount": 10285,
+    "imagesCount": 1898,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.930Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 1 AM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 3 AM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 3 AM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 4 AM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 5 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 5 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8 AM to 1 AM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Rooftop seating": true
+        },
+        {
+          "Sports": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Happy hour food": true
+        },
+        {
+          "Late-night food": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Vegan options": true
+        },
+        {
+          "Vegetarian options": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        },
+        {
+          "Counter service": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "College students": true
+        },
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Tourists": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ],
+      "Planning": [
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Usually plenty of parking": true
+        },
+        {
+          "Valet parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tacos%20El%20Pata&query_place_id=ChIJAQeR59VE04URIdDTJTt_uVI",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 19,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer530vuKxSIgnTBSjPINbjoJRDs6PsnflzB1YGTEdtOrGKcfCtjZjCIbEJfUWqT_CZo6zaJo7u6vth5pc0__rVWy2w8lKdRt8ONsiJmIq96IJiLmA9LnRfxMbp322xbqySFLpjN=w408-h306-k-no",
+    "kgmid": "/g/1tr8ly8f"
+  },
+  {
+    "title": "Restaurante 1810",
+    "description": "Classic Mexican dishes & live music, plus outdoor tables with views of a leafy square.",
+    "price": "$$",
+    "categoryName": "Mexican restaurant",
+    "address": "And. Libertad 62, Centro, 76000 Santiago de Querétaro, Qro., Mexico",
+    "neighborhood": "Centro",
+    "street": "And. Libertad 62",
+    "city": "Santiago de Querétaro",
+    "postalCode": "76000",
+    "state": "Querétaro",
+    "countryCode": "MX",
+    "website": "https://restaurante1810.wordpress.com/nuestro-menu/",
+    "phone": "+52 442 214 3324",
+    "phoneUnformatted": "+524422143324",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 20.5926335,
+      "lng": -100.3894769
+    },
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJG7laIpha04UR0lN4WWAFl4g",
+    "categories": [
+      "Mexican restaurant",
+      "Breakfast restaurant",
+      "Function room facility"
+    ],
+    "fid": "0x85d35a98225ab91b:0x88970560597853d2",
+    "cid": "9842341422017565650",
+    "reviewsCount": 2926,
+    "imagesCount": 1662,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:37.931Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/Wj5ozce65PE?source=pa&opi=79508299&hl=en-US&gei=KH_HaYaNDuDY5NoP1L2hiQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3199722.634370091!2d-122.6715335!3d38.447722899999995!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sJn_HacV9vJDBuQ-_h46oCA!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurants%2Bin%2BQueretaro%2BMexixo%26ech%3D1%26psi%3DJn_HacV9vJDBuQ-_h46oCA.1774681894162.1",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 11 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 12 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8 AM to 10 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "From the business": [
+        {
+          "Identifies as women-owned": true
+        }
+      ],
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        },
+        {
+          "Delivery": false
+        }
+      ],
+      "Highlights": [
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great coffee": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great tea selection": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Live music": true
+        },
+        {
+          "Rooftop seating": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Breakfast": true
+        },
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Historic": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Brunch reservations recommended": true
+        },
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Restaurante%201810&query_place_id=ChIJG7laIpha04UR0lN4WWAFl4g",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 20,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerlWGbtA2KUl8sdxvoJ9IRSUHj2TzcaVUsLLG-mQBiZfEmnpimI1siZaGBx4xVDQuBkKcp2qIpAQYcuSuNwYk9Wza4olx1kJOqqp_UlVnmR3F9UFp2Pxm4BokbvD2uXC7FZ6rA=w426-h240-k-no",
+    "kgmid": "/g/1tf8tfzr"
+  },
+  {
+    "title": "El Rey Taquiza Artesanal",
+    "price": "$$",
+    "categoryName": "Restaurant",
+    "address": "2491 Mission St, San Francisco, CA 94110",
+    "neighborhood": "Mission District",
+    "street": "2491 Mission St",
+    "city": "San Francisco",
+    "postalCode": "94110",
+    "state": "California",
+    "countryCode": "US",
+    "website": "https://www.elreytaquiza.com/",
+    "phone": "(415) 796-2139",
+    "phoneUnformatted": "+14157962139",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 37.7572679,
+      "lng": -122.418732
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJvRp3sT5-j4AR6-HtouO7E_s",
+    "categories": [
+      "Restaurant"
+    ],
+    "fid": "0x808f7e3eb1771abd:0xfb13bbe3a2ede1eb",
+    "cid": "18092010714442883563",
+    "reviewsCount": 265,
+    "reviewsDistribution": {
+      "oneStar": 18,
+      "twoStar": 5,
+      "threeStar": 9,
+      "fourStar": 22,
+      "fiveStar": 211
+    },
+    "imagesCount": 335,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:38.518Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "11:30 AM to 7 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "11:30 AM to 10 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "11:30 AM to 10 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "11:30 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10:30 AM to 1:30 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10:30 AM to 1:30 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "11:30 AM to 9 PM"
+      }
+    ],
+    "additionalOpeningHours": {
+      "Happy hours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "3–6 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "3–6 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "3–6 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "3–6 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ]
+    },
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Fast service": true
+        },
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Serves local specialty": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Comfort food": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "High chairs": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid street parking": true
+        },
+        {
+          "Usually somewhat difficult to find a space": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=El%20Rey%20Taquiza%20Artesanal&query_place_id=ChIJvRp3sT5-j4AR6-HtouO7E_s",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 21,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweot3iSuUBDQGmcGrnI5Hrs8FNVe41-WO5VXa7xp2VNjKX19KiRztqMVgfPzH0ydgQ635N2BavVY--bOXbCxhGLItQGrah8ppuQMOGWrMeXOTjo0JRdSamdN4cLk_i9MgLmt-LKegA=w408-h408-k-no",
+    "kgmid": "/g/11t49yc6cf"
+  },
+  {
+    "title": "Al Pastor Papi",
+    "price": null,
+    "categoryName": "Mexican restaurant",
+    "address": "232 O'Farrell St, San Francisco, CA 94102",
+    "neighborhood": "Union Square",
+    "street": "232 O'Farrell St",
+    "city": "San Francisco",
+    "postalCode": "94102",
+    "state": "California",
+    "countryCode": "US",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 37.7864848,
+      "lng": -122.4086079
+    },
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJb8aQHACBhYAR4IOvll5mgzk",
+    "categories": [
+      "Mexican restaurant"
+    ],
+    "fid": "0x808581001c90c66f:0x3983665e96af83e0",
+    "cid": "4144268638552032224",
+    "reviewsCount": 124,
+    "reviewsDistribution": {
+      "oneStar": 4,
+      "twoStar": 1,
+      "threeStar": 5,
+      "fourStar": 15,
+      "fiveStar": 99
+    },
+    "imagesCount": 143,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:38.519Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "11 AM to 8 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Fast service": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Comfort food": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid street parking": true
+        },
+        {
+          "Usually difficult to find a space": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Al%20Pastor%20Papi&query_place_id=ChIJb8aQHACBhYAR4IOvll5mgzk",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 22,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer0GViu_yoTynrm_9LhIWnkmJrEwtPoNtNzxrVk0W5dry62xjiw5yh38nMLkeWo8QLjpq45LrS5kJGy25EeculKvaXs4-xRswJ-_ogkIu-6BNsx85ELQPTKyoxlfSJQz0WKai9kOuh8R-v1=w408-h306-k-no",
+    "kgmid": "/g/11ydx2_xl9"
+  },
+  {
+    "title": "mariscos la ceiba monterrey rd",
+    "price": null,
+    "categoryName": "Bar",
+    "address": "4100 Monterey Rd #108, San Jose, CA 95111",
+    "neighborhood": "South San Jose",
+    "street": "4100 Monterey Rd #108",
+    "city": "San Jose",
+    "postalCode": "95111",
+    "state": "California",
+    "countryCode": "US",
+    "website": "http://mariscoslaceiba.com/",
+    "phone": "(669) 350-4612",
+    "phoneUnformatted": "+16693504612",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 37.2793053,
+      "lng": -121.8347287
+    },
+    "totalScore": 3.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJHy305b4zjoARobO-3mW0K-8",
+    "categories": [
+      "Bar",
+      "Mexican restaurant",
+      "Night club"
+    ],
+    "fid": "0x808e33bee5f42d1f:0xef2bb465debeb3a1",
+    "cid": "17234066748685071265",
+    "reviewsCount": 75,
+    "reviewsDistribution": {
+      "oneStar": 21,
+      "twoStar": 4,
+      "threeStar": 6,
+      "fourStar": 12,
+      "fiveStar": 32
+    },
+    "imagesCount": 36,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:38.519Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 AM to 9 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 AM to 9 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 AM to 9 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 AM to 1:59 AM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 1:59 AM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 9 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Dine-in": true
+        },
+        {
+          "Delivery": false
+        }
+      ],
+      "Highlights": [
+        {
+          "Fast service": true
+        },
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Live performances": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Dancing": true
+        },
+        {
+          "Food": true
+        },
+        {
+          "Food at bar": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=mariscos%20la%20ceiba%20monterrey%20rd&query_place_id=ChIJHy305b4zjoARobO-3mW0K-8",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 23,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepjYdZz1uIWkNkAIoUGLC9l_PTI1gBYRJ-3D0I9jzriGytdunAIS89OiKQP1lcmFHDI-WaXQhSIl_0uf-nalo7qBjZ9yVjGTAmo00xK2xgTy52teU1CuxQpDQ9kp2-QLquZfC1hKg=w408-h544-k-no",
+    "kgmid": "/g/11nxc70_c_"
+  },
+  {
+    "title": "El Borrego Dorado",
+    "price": null,
+    "categoryName": "Mexican restaurant",
+    "address": "2605 S Eastern Ave, Las Vegas, NV 89169",
+    "neighborhood": null,
+    "street": "2605 S Eastern Ave",
+    "city": "Las Vegas",
+    "postalCode": "89169",
+    "state": "Nevada",
+    "countryCode": "US",
+    "website": "http://elborregodorado.weebly.com/",
+    "phone": "(702) 624-2339",
+    "phoneUnformatted": "+17026242339",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 36.1419503,
+      "lng": -115.1200566
+    },
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJqXXgleHDyIAR5re4RR2tRWw",
+    "categories": [
+      "Mexican restaurant"
+    ],
+    "fid": "0x80c8c3e195e075a9:0x6c45ad1d45b8b7e6",
+    "cid": "7801832270724642790",
+    "reviewsCount": 28,
+    "reviewsDistribution": {
+      "oneStar": 1,
+      "twoStar": 2,
+      "threeStar": 1,
+      "fourStar": 2,
+      "fiveStar": 22
+    },
+    "imagesCount": 37,
+    "imageCategories": [],
+    "scrapedAt": "2026-03-28T07:11:38.519Z",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "5 to 11:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "5 to 11:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "5 to 11:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "5 to 11:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "5 to 11:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "5 to 11:30 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "5 to 11:30 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        },
+        {
+          "Delivery": false
+        }
+      ],
+      "Highlights": [
+        {
+          "Fast service": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Comfort food": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        }
+      ],
+      "Payments": [
+        {
+          "Debit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Usually plenty of parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=El%20Borrego%20Dorado&query_place_id=ChIJqXXgleHDyIAR5re4RR2tRWw",
+    "searchPageUrl": "https://www.google.com/maps/search/restaurants%20in%20Queretaro%20Mexixo?hl=en",
+    "searchString": "restaurants in Queretaro Mexixo",
+    "language": "en",
+    "rank": 24,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepAiBuLF4wt_7urAiQtNi8ieevy62RDImNRiv5DfV7cGqmoOYO8A5MMpCB3Jd9kEt7O2J_a8dRtYxgVeIL389jSCjt1kqU8pxys2PmIvp08CagBEb9c6pHXqlj2mBWwUIV0DMzhqg=w408-h408-k-no",
+    "kgmid": "/g/11r_wvq82v"
+  }
+]
