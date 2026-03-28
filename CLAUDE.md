@@ -11,13 +11,14 @@ Scraper de Google Maps que extrae gasolineras, las puntua (Decision Score 0-100)
 ```
 maps_scraper/
 ├── src/                    # Core logic
-│   ├── models.py           # GasStation Pydantic model
+│   ├── models.py           # GasStation + Restaurant Pydantic models
 │   ├── scorer.py           # Decision Score (rating 50% + reviews 30% + 24h 20%)
-│   ├── parser.py           # Apify JSON > GasStation
+│   ├── parser.py           # Apify JSON > GasStation | Restaurant
 │   └── processor.py        # Batch: score + rank + savings + recomendacion
 ├── scripts/
 │   ├── format_sheet.py     # Formatea XLSX para screenshots
 │   ├── populate_details.py # Apify JSON → Details sheet en XLSX
+│   ├── scrape_by_query.py  # Scrape Google Maps por query (generico)
 │   ├── scrape_all_details.py # Scrape amenities por placeId via Apify
 │   ├── test_apify_details.py # Test scrape de 3 estaciones
 │   ├── deploy_workflow.py  # Deploy JSON a n8n API
@@ -73,11 +74,21 @@ Google Sheets (Query) > n8n (30 min) > Apify (scrape Maps) > Python (parse+score
 - Claude Code settings configurados: `.claude/settings.json` con hooks y ignorePatterns
 - Carpetas obsoletas eliminadas: `.context/`, `.agent/`
 - Brainstorming Fiverr: gig "scrape any website", 3 paquetes (Basic $10 / Standard $25 / Premium $50)
-- Estrategia screenshots: 3 datasets (refacciones MercadoLibre + gasolineras Maps + vista general)
 - MercadoLibre validado: BeautifulSoup funciona, gratis, 48+ productos por búsqueda
-- Comparación por región NO funciona (ML es marketplace nacional) → comparación por MARCA sí
 - Decisión: crear proyecto separado `mercadolibre_scraper/` (herramientas diferentes a maps_scraper)
 - Apify: $4.78 crédito restante este mes
+
+### Sesion 2026-03-27 (tercera parte)
+
+- **Estudio de mercado Fiverr COMPLETADO** — ~7,000 gigs scraping, saturado en $5-$30, especialización vertical es clave
+- **Nicho elegido:** Google Maps restaurant data en Mexico/LATAM (pocos sellers LATAM)
+- **Gig definido:** "I will scrape Google Maps restaurant data in Mexico and Latin America"
+  - Paquetes: Basic $15 / Standard $30 / Premium $50
+  - Spec completo: `docs/superpowers/specs/2026-03-27-fiverr-gig-maps-latam-design.md`
+- **Archivos nuevos creados (pasos 1-3 de 7):**
+  - `scripts/scrape_by_query.py` — scrape generico por query (argparse + Apify)
+  - `src/models.py` — modelo `Restaurant` agregado (place_id, phone, website, delivery, dine_in, takeout, wifi, reservations)
+  - `src/parser.py` — `parse_restaurant_data()` + `extract_restaurant_amenities()` agregados
 
 ### Produccion
 - Necesita: Apify API key + Google Sheets OAuth + Sheet ID
@@ -106,11 +117,14 @@ Score = (rating/5 * 50) + min(log10(reviews+1) * 10, 30) + (24h ? 20 : 0)
 - [x] Commit sesion 2026-03-27 — DONE
 - [x] Claude Code settings: hooks (.env protection, auto-test) + ignorePatterns — DONE sesion 2026-03-27
 - [x] Cleanup carpetas obsoletas (.context/, .agent/) — DONE sesion 2026-03-27
-- [ ] Estudio de mercado: qué scraping se vende más en Fiverr (próxima sesión)
-- [ ] Crear proyecto `mercadolibre_scraper/` — scraper de refacciones por marca (BeautifulSoup, gratis)
-- [ ] Formatear XLSX para Fiverr — 3 screenshots: refacciones ML + gasolineras Maps + vista general
-- [ ] Screenshots alta resolución para Fiverr (3 tomas)
-- [ ] Publicar gig Fiverr: "scrape any website and deliver clean data"
+- [x] Estudio de mercado Fiverr — DONE sesion 2026-03-27 (nicho: restaurants LATAM)
+- [x] scrape_by_query.py — DONE sesion 2026-03-27
+- [x] Modelo Restaurant + parser — DONE sesion 2026-03-27
+- [ ] Paso 4: populate_restaurants.py — JSON > XLSX restaurantes
+- [ ] Paso 5: format_fiverr_restaurants.py — XLSX formateado para screenshots
+- [ ] Paso 6: Ejecutar pipeline (scrape real ~$0.50 Apify)
+- [ ] Paso 7: Screenshots + publicar gig Fiverr
+- [ ] Crear proyecto `mercadolibre_scraper/` (prioridad baja, despues del gig)
 - [ ] Migrar a uv (baja prioridad)
 
 ---

@@ -1,5 +1,6 @@
 from typing import Dict, Any
-from .models import GasStation
+from .models import GasStation, Restaurant
+
 
 def parse_apify_data(raw_data: Dict[str, Any]) -> GasStation:
     """
@@ -77,6 +78,7 @@ def parse_apify_data(raw_data: Dict[str, Any]) -> GasStation:
         Google_Maps_URL=raw_data.get('url', '')
     )
 
+
 def extract_amenities(additional_info: dict, station_name: str) -> dict:
     """Extract amenity booleans from Apify additionalInfo field."""
 
@@ -101,3 +103,70 @@ def extract_amenities(additional_info: dict, station_name: str) -> dict:
         "has_oxxo": "oxxo" in name_lower,          # oxxo esta en el nombre, no en amenities
         "has_coffee": "coffee" in all_services or "café" in all_services,
     }
+
+
+def extract_restaurant_amenities(additional_info: dict) -> dict:
+    """Extract amenity booleans for restaurants from Apify additionalInfo"""
+
+    all_services = ""
+    for category in additional_info.values():
+        for item in category:
+            for key in item:
+                all_services += key + " "
+
+    all_services = all_services.lower()
+
+    return {
+        "has_delivery": "delivery" in all_services,
+        "has_dine_in": "dine-in" in all_services or "dine in" in all_services,
+        "has_takeout": "takeout" in all_services or "take-out" in all_services,
+        "has_wifi": "wifi" in all_services or "wifi" in all_services,
+        "has_reservations": "reserv" in all_services,
+    }
+
+
+def parse_restaurant_data(raw_data: dict) -> Restaurant:
+    """Parse raw JSON from Apify/Google Maps into a Restaurant model."""
+
+    place_id = raw_data.get("placeId", raw_data.get("cid", "unknown"))
+    name = raw_data.get("title", "Unknown")
+
+    rating = float(raw_data.get("totalScore", 0))
+    reviews = int(raw_data.get("reviewsCount", 0))
+
+    location = raw_data.get("location", {})
+    lat = location.get("lat", raw_data.get("lat"))
+    lng = location.get("lng", raw_data.get("lng"))
+
+    has_24_hours = False
+    opening_hours = raw_data.get("openingHours", [])
+    if opening_hours:
+        for dh in opening_hours:
+            if "open 24 hours" in str(dh).lower():
+                has_24_hours = True
+                break
+
+    additional_info = raw_data.get("additionalInfo", {})
+    if not isinstance(additional_info, dict):
+        additional_info = {}
+    amenities = extract_restaurant_amenities(additional_info)
+
+    return Restaurant(
+        place_id=place_id,
+        name=name,
+        address=raw_data.get("address", "N/A"),
+        phone=raw_data.get("phone"),
+        website=raw_data.get("website"),
+        rating=rating,
+        total_reviews=reviews,
+        price_level=raw_data.get("priceLevel"),
+        has_24_hours=has_24_hours,
+        has_delivery=amenities["has_delivery"],
+        has_dine_in=amenities["has_dine_in"],
+        has_takeout=amenities["has_takeout"],
+        has_wifi=amenities["has_wifi"],
+        has_reservation=amenities["has_reservations"],
+        latitude=lat,
+        longitude=lng,
+        google_maps_url=raw_data.get("url", ""),
+    )

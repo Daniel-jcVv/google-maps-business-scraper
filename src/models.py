@@ -32,3 +32,24 @@ class GasStation(BaseModel):
     # Extra info that might be useful
     address: Optional[str] = None
     Google_Maps_URL: Optional[str] = None
+
+
+class Restaurant(BaseModel):
+    # Match Google Sheets Headers exactly for auto-mapping
+    place_id: str
+    name: str
+    address: Optional[str] = None
+    phone: Optional[str] = None
+    website: Optional[str] = None
+    rating: float = Field(0, ge=0, le=5)
+    total_reviews: int = Field(0, ge=0)
+    price_level: Optional[str] = None
+    has_24_hours: bool = False
+    has_delivery: bool = False
+    has_dine_in: bool = False
+    has_takeout: bool = False
+    has_wifi: bool = False
+    has_reservation: bool = False
+    latitude: Optional[float] = None
+    longitude: Optional[float] = None
+    google_maps_url: Optional[str] = None
